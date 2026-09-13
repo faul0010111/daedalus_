@@ -1,0 +1,2957 @@
+{
+ "ticks": 2500,
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "presets": {
+  "full": {
+   "runs": 8,
+   "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "task": {
+    "calibrations": {
+     "mean": 5.125,
+     "median": 4.5,
+     "stdev": 3.834,
+     "min": 1,
+     "max": 13
+    },
+    "collapses": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "damage_taken": {
+     "mean": 590.25,
+     "median": 591.0,
+     "stdev": 268.499,
+     "min": 156.0,
+     "max": 936.0
+    },
+    "exhausted_ticks": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "first_thread_tick": {
+     "mean": 299.125,
+     "median": -1.0,
+     "stdev": 456.119,
+     "min": -1,
+     "max": 1106
+    },
+    "relic_value_banked": {
+     "mean": 11.125,
+     "median": 10.0,
+     "stdev": 6.289,
+     "min": 3.0,
+     "max": 21.0
+    },
+    "scans": {
+     "mean": 185.125,
+     "median": 117.0,
+     "stdev": 167.223,
+     "min": 88,
+     "max": 586
+    },
+    "threads_recovered": {
+     "mean": 3.375,
+     "median": 0.0,
+     "stdev": 4.749,
+     "min": 0,
+     "max": 11
+    },
+    "value_returned": {
+     "mean": 44.875,
+     "median": 17.5,
+     "stdev": 47.051,
+     "min": 3.0,
+     "max": 118.0
+    }
+   },
+   "autonomy": {
+    "agent_topology_changes": {
+     "mean": 61.125,
+     "median": 46.0,
+     "stdev": 40.773,
+     "min": 41,
+     "max": 161
+    },
+    "contradictions_resolved": {
+     "mean": 1232.5,
+     "median": 1234.0,
+     "stdev": 131.354,
+     "min": 983,
+     "max": 1394
+    },
+    "diagnoses": {
+     "mean": 12.75,
+     "median": 12.5,
+     "stdev": 2.252,
+     "min": 9,
+     "max": 16
+    },
+    "emergent_goals": {
+     "mean": 6.375,
+     "median": 3.5,
+     "stdev": 5.605,
+     "min": 1,
+     "max": 14
+    },
+    "goal_progress_rate": {
+     "mean": 0.205,
+     "median": 0.08,
+     "stdev": 0.241,
+     "min": 0.0,
+     "max": 0.52
+    },
+    "knowledge_gaps_resolved": {
+     "mean": 3.625,
+     "median": 0.0,
+     "stdev": 5.041,
+     "min": 0,
+     "max": 11
+    },
+    "reflection_events": {
+     "mean": 47.75,
+     "median": 52.0,
+     "stdev": 13.177,
+     "min": 26,
+     "max": 61
+    },
+    "self_initiated_ratio": {
+     "mean": 0.681,
+     "median": 0.683,
+     "stdev": 0.035,
+     "min": 0.636,
+     "max": 0.733
+    },
+    "strategy_adaptations": {
+     "mean": 0.75,
+     "median": 0.5,
+     "stdev": 0.886,
+     "min": 0,
+     "max": 2
+    },
+    "uncertainty_reduction": {
+     "mean": 1076.702,
+     "median": 1105.1,
+     "stdev": 135.834,
+     "min": 826.78,
+     "max": 1253.61
+    }
+   },
+   "performance": {
+    "attention_entropy": {
+     "mean": 1.374,
+     "median": 1.406,
+     "stdev": 0.336,
+     "min": 0.811,
+     "max": 1.906
+    },
+    "epistemic_share": {
+     "mean": 0.132,
+     "median": 0.125,
+     "stdev": 0.086,
+     "min": 0.017,
+     "max": 0.276
+    },
+    "info_gain_per_tick": {
+     "mean": 0.187,
+     "median": 0.17,
+     "stdev": 0.109,
+     "min": 0.01,
+     "max": 0.377
+    },
+    "reward_per_tick": {
+     "mean": -0.012,
+     "median": -0.012,
+     "stdev": 0.01,
+     "min": -0.028,
+     "max": 0.0
+    },
+    "success_rate": {
+     "mean": 1.0,
+     "median": 1.0,
+     "stdev": 0.0,
+     "min": 1.0,
+     "max": 1.0
+    }
+   },
+   "goals": {
+    "abandoned": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "achieved": {
+     "mean": 5.125,
+     "median": 2.0,
+     "stdev": 6.034,
+     "min": 0,
+     "max": 13
+    },
+    "blocked": {
+     "mean": 1.375,
+     "median": 1.0,
+     "stdev": 1.506,
+     "min": 0,
+     "max": 5
+    },
+    "emergent": {
+     "mean": 6.375,
+     "median": 3.5,
+     "stdev": 5.605,
+     "min": 1,
+     "max": 14
+    },
+    "total": {
+     "mean": 9.375,
+     "median": 6.5,
+     "stdev": 5.605,
+     "min": 4,
+     "max": 17
+    }
+   },
+   "adopted_strategies": {
+    "exploration.frontier_policy": {
+     "gain_per_cost": 6,
+     "max_gain": 2
+    },
+    "planning.support_threshold": {
+     "balanced": 8
+    },
+    "opportunity.min_confidence": {
+     "guarded": 8
+    },
+    "risk.energy_reserve": {
+     "balanced": 8
+    },
+    "attention.temperature": {
+     "deterministic": 8
+    },
+    "attention.commitment": {
+     "steady": 8
+    }
+   }
+  },
+  "with_drives": {
+   "runs": 8,
+   "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "task": {
+    "calibrations": {
+     "mean": 5,
+     "median": 4.5,
+     "stdev": 3.625,
+     "min": 1,
+     "max": 11
+    },
+    "collapses": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "damage_taken": {
+     "mean": 735.75,
+     "median": 603.0,
+     "stdev": 320.632,
+     "min": 408.0,
+     "max": 1254.0
+    },
+    "exhausted_ticks": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "first_thread_tick": {
+     "mean": 424.5,
+     "median": -1.0,
+     "stdev": 699.553,
+     "min": -1,
+     "max": 1883
+    },
+    "relic_value_banked": {
+     "mean": 11.625,
+     "median": 9.0,
+     "stdev": 7.19,
+     "min": 5.0,
+     "max": 23.0
+    },
+    "scans": {
+     "mean": 184.625,
+     "median": 128.5,
+     "stdev": 105.98,
+     "min": 108,
+     "max": 409
+    },
+    "threads_recovered": {
+     "mean": 1.25,
+     "median": 0.0,
+     "stdev": 1.909,
+     "min": 0,
+     "max": 5
+    },
+    "value_returned": {
+     "mean": 24.125,
+     "median": 22.5,
+     "stdev": 16.155,
+     "min": 7.0,
+     "max": 55.0
+    }
+   },
+   "autonomy": {
+    "agent_topology_changes": {
+     "mean": 53.625,
+     "median": 49.5,
+     "stdev": 17.695,
+     "min": 34,
+     "max": 92
+    },
+    "contradictions_resolved": {
+     "mean": 1251.125,
+     "median": 1291.5,
+     "stdev": 162.733,
+     "min": 1023,
+     "max": 1459
+    },
+    "diagnoses": {
+     "mean": 14.875,
+     "median": 14.5,
+     "stdev": 3.137,
+     "min": 10,
+     "max": 20
+    },
+    "emergent_goals": {
+     "mean": 4,
+     "median": 3.5,
+     "stdev": 2.878,
+     "min": 1,
+     "max": 9
+    },
+    "goal_progress_rate": {
+     "mean": 0.125,
+     "median": 0.1,
+     "stdev": 0.125,
+     "min": 0.0,
+     "max": 0.36
+    },
+    "knowledge_gaps_resolved": {
+     "mean": 1.5,
+     "median": 0.5,
+     "stdev": 2.138,
+     "min": 0,
+     "max": 6
+    },
+    "reflection_events": {
+     "mean": 42,
+     "median": 44.0,
+     "stdev": 10.677,
+     "min": 26,
+     "max": 56
+    },
+    "self_initiated_ratio": {
+     "mean": 0.688,
+     "median": 0.691,
+     "stdev": 0.038,
+     "min": 0.614,
+     "max": 0.733
+    },
+    "strategy_adaptations": {
+     "mean": 0.625,
+     "median": 1.0,
+     "stdev": 0.518,
+     "min": 0,
+     "max": 1
+    },
+    "uncertainty_reduction": {
+     "mean": 1036.449,
+     "median": 1014.85,
+     "stdev": 104.876,
+     "min": 929.83,
+     "max": 1196.53
+    }
+   },
+   "performance": {
+    "attention_entropy": {
+     "mean": 1.109,
+     "median": 0.986,
+     "stdev": 0.288,
+     "min": 0.837,
+     "max": 1.584
+    },
+    "epistemic_share": {
+     "mean": 0.178,
+     "median": 0.085,
+     "stdev": 0.202,
+     "min": 0.0,
+     "max": 0.5
+    },
+    "info_gain_per_tick": {
+     "mean": 0.076,
+     "median": 0.047,
+     "stdev": 0.068,
+     "min": 0.005,
+     "max": 0.179
+    },
+    "reward_per_tick": {
+     "mean": -0.02,
+     "median": -0.019,
+     "stdev": 0.008,
+     "min": -0.029,
+     "max": -0.01
+    },
+    "success_rate": {
+     "mean": 1.0,
+     "median": 1.0,
+     "stdev": 0.0,
+     "min": 1.0,
+     "max": 1.0
+    }
+   },
+   "goals": {
+    "abandoned": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "achieved": {
+     "mean": 3.125,
+     "median": 2.5,
+     "stdev": 3.137,
+     "min": 0,
+     "max": 9
+    },
+    "blocked": {
+     "mean": 0.875,
+     "median": 1.0,
+     "stdev": 0.354,
+     "min": 0,
+     "max": 1
+    },
+    "emergent": {
+     "mean": 4,
+     "median": 3.5,
+     "stdev": 2.878,
+     "min": 1,
+     "max": 9
+    },
+    "total": {
+     "mean": 7,
+     "median": 6.5,
+     "stdev": 2.878,
+     "min": 4,
+     "max": 12
+    }
+   },
+   "adopted_strategies": {
+    "exploration.frontier_policy": {
+     "gain_per_cost": 3,
+     "nearest": 4,
+     "max_gain": 1
+    },
+    "planning.support_threshold": {
+     "balanced": 8
+    },
+    "opportunity.min_confidence": {
+     "guarded": 8
+    },
+    "risk.energy_reserve": {
+     "balanced": 8
+    },
+    "attention.temperature": {
+     "deterministic": 8
+    },
+    "attention.commitment": {
+     "steady": 8
+    }
+   }
+  },
+  "static_weights": {
+   "runs": 8,
+   "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "task": {
+    "calibrations": {
+     "mean": 5,
+     "median": 5.5,
+     "stdev": 2.726,
+     "min": 0,
+     "max": 9
+    },
+    "collapses": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "damage_taken": {
+     "mean": 462.0,
+     "median": 369.0,
+     "stdev": 397.284,
+     "min": 60.0,
+     "max": 1134.0
+    },
+    "exhausted_ticks": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "first_thread_tick": {
+     "mean": 444.125,
+     "median": 207.0,
+     "stdev": 544.461,
+     "min": -1,
+     "max": 1375
+    },
+    "relic_value_banked": {
+     "mean": 8.5,
+     "median": 6.0,
+     "stdev": 8.384,
+     "min": 0.0,
+     "max": 27.0
+    },
+    "scans": {
+     "mean": 113.75,
+     "median": 92.5,
+     "stdev": 82.311,
+     "min": 16,
+     "max": 267
+    },
+    "threads_recovered": {
+     "mean": 2.5,
+     "median": 1.0,
+     "stdev": 3.295,
+     "min": 0,
+     "max": 8
+    },
+    "value_returned": {
+     "mean": 33.5,
+     "median": 25.0,
+     "stdev": 33.832,
+     "min": 0.0,
+     "max": 93.0
+    }
+   },
+   "autonomy": {
+    "agent_topology_changes": {
+     "mean": 92.75,
+     "median": 84.5,
+     "stdev": 45.5,
+     "min": 46,
+     "max": 159
+    },
+    "contradictions_resolved": {
+     "mean": 763.125,
+     "median": 845.0,
+     "stdev": 503.223,
+     "min": 90,
+     "max": 1392
+    },
+    "diagnoses": {
+     "mean": 14.875,
+     "median": 14.5,
+     "stdev": 6.01,
+     "min": 7,
+     "max": 25
+    },
+    "emergent_goals": {
+     "mean": 6.625,
+     "median": 5.5,
+     "stdev": 4.926,
+     "min": 1,
+     "max": 13
+    },
+    "goal_progress_rate": {
+     "mean": 0.21,
+     "median": 0.18,
+     "stdev": 0.179,
+     "min": 0.0,
+     "max": 0.44
+    },
+    "knowledge_gaps_resolved": {
+     "mean": 3,
+     "median": 2.0,
+     "stdev": 3.295,
+     "min": 0,
+     "max": 8
+    },
+    "reflection_events": {
+     "mean": 41,
+     "median": 40.0,
+     "stdev": 9.071,
+     "min": 28,
+     "max": 54
+    },
+    "self_initiated_ratio": {
+     "mean": 0.616,
+     "median": 0.616,
+     "stdev": 0.069,
+     "min": 0.523,
+     "max": 0.701
+    },
+    "strategy_adaptations": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "uncertainty_reduction": {
+     "mean": 663.729,
+     "median": 701.99,
+     "stdev": 335.679,
+     "min": 191.73,
+     "max": 1049.67
+    }
+   },
+   "performance": {
+    "attention_entropy": {
+     "mean": 1.217,
+     "median": 1.052,
+     "stdev": 0.341,
+     "min": 0.86,
+     "max": 1.766
+    },
+    "epistemic_share": {
+     "mean": 0.324,
+     "median": 0.412,
+     "stdev": 0.203,
+     "min": 0.067,
+     "max": 0.5
+    },
+    "info_gain_per_tick": {
+     "mean": 0.106,
+     "median": 0.071,
+     "stdev": 0.117,
+     "min": 0.0,
+     "max": 0.286
+    },
+    "reward_per_tick": {
+     "mean": -0.021,
+     "median": -0.025,
+     "stdev": 0.01,
+     "min": -0.03,
+     "max": -0.003
+    },
+    "success_rate": {
+     "mean": 1.0,
+     "median": 1.0,
+     "stdev": 0.0,
+     "min": 1.0,
+     "max": 1.0
+    }
+   },
+   "goals": {
+    "abandoned": {
+     "mean": 0.5,
+     "median": 0.0,
+     "stdev": 1.414,
+     "min": 0,
+     "max": 4
+    },
+    "achieved": {
+     "mean": 5.25,
+     "median": 4.5,
+     "stdev": 4.464,
+     "min": 0,
+     "max": 11
+    },
+    "blocked": {
+     "mean": 0.875,
+     "median": 1.0,
+     "stdev": 0.354,
+     "min": 0,
+     "max": 1
+    },
+    "emergent": {
+     "mean": 6.625,
+     "median": 5.5,
+     "stdev": 4.926,
+     "min": 1,
+     "max": 13
+    },
+    "total": {
+     "mean": 9.625,
+     "median": 8.5,
+     "stdev": 4.926,
+     "min": 4,
+     "max": 16
+    }
+   },
+   "adopted_strategies": {
+    "exploration.frontier_policy": {
+     "gain_per_cost": 8
+    },
+    "planning.support_threshold": {
+     "balanced": 8
+    },
+    "opportunity.min_confidence": {
+     "guarded": 8
+    },
+    "risk.energy_reserve": {
+     "balanced": 8
+    },
+    "attention.temperature": {
+     "deterministic": 8
+    },
+    "attention.commitment": {
+     "steady": 8
+    }
+   }
+  },
+  "no_attention_learning": {
+   "runs": 8,
+   "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "task": {
+    "calibrations": {
+     "mean": 6,
+     "median": 7.0,
+     "stdev": 2.878,
+     "min": 1,
+     "max": 9
+    },
+    "collapses": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "damage_taken": {
+     "mean": 678.0,
+     "median": 570.0,
+     "stdev": 378.143,
+     "min": 288.0,
+     "max": 1386.0
+    },
+    "exhausted_ticks": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "first_thread_tick": {
+     "mean": 552,
+     "median": 548.0,
+     "stdev": 411.749,
+     "min": -1,
+     "max": 1187
+    },
+    "relic_value_banked": {
+     "mean": 9.625,
+     "median": 11.0,
+     "stdev": 2.504,
+     "min": 6.0,
+     "max": 12.0
+    },
+    "scans": {
+     "mean": 187.125,
+     "median": 131.0,
+     "stdev": 177.751,
+     "min": 81,
+     "max": 621
+    },
+    "threads_recovered": {
+     "mean": 4.5,
+     "median": 5.0,
+     "stdev": 3.625,
+     "min": 0,
+     "max": 8
+    },
+    "value_returned": {
+     "mean": 54.625,
+     "median": 59.5,
+     "stdev": 36.594,
+     "min": 7.0,
+     "max": 91.0
+    }
+   },
+   "autonomy": {
+    "agent_topology_changes": {
+     "mean": 63.875,
+     "median": 47.0,
+     "stdev": 44.987,
+     "min": 39,
+     "max": 173
+    },
+    "contradictions_resolved": {
+     "mean": 1137.875,
+     "median": 1214.5,
+     "stdev": 253.325,
+     "min": 674,
+     "max": 1418
+    },
+    "diagnoses": {
+     "mean": 14.25,
+     "median": 13.0,
+     "stdev": 4.862,
+     "min": 8,
+     "max": 23
+    },
+    "emergent_goals": {
+     "mean": 9.625,
+     "median": 10.0,
+     "stdev": 4.438,
+     "min": 1,
+     "max": 15
+    },
+    "goal_progress_rate": {
+     "mean": 0.32,
+     "median": 0.32,
+     "stdev": 0.192,
+     "min": 0.0,
+     "max": 0.56
+    },
+    "knowledge_gaps_resolved": {
+     "mean": 5.375,
+     "median": 5.5,
+     "stdev": 3.623,
+     "min": 0,
+     "max": 10
+    },
+    "reflection_events": {
+     "mean": 45.75,
+     "median": 47.0,
+     "stdev": 10.082,
+     "min": 29,
+     "max": 57
+    },
+    "self_initiated_ratio": {
+     "mean": 0.663,
+     "median": 0.67,
+     "stdev": 0.042,
+     "min": 0.61,
+     "max": 0.73
+    },
+    "strategy_adaptations": {
+     "mean": 0.75,
+     "median": 0.5,
+     "stdev": 0.886,
+     "min": 0,
+     "max": 2
+    },
+    "uncertainty_reduction": {
+     "mean": 897.02,
+     "median": 894.365,
+     "stdev": 156.009,
+     "min": 625.37,
+     "max": 1160.11
+    }
+   },
+   "performance": {
+    "attention_entropy": {
+     "mean": 1.182,
+     "median": 1.062,
+     "stdev": 0.236,
+     "min": 0.974,
+     "max": 1.521
+    },
+    "epistemic_share": {
+     "mean": 0.203,
+     "median": 0.11,
+     "stdev": 0.163,
+     "min": 0.068,
+     "max": 0.517
+    },
+    "info_gain_per_tick": {
+     "mean": 0.144,
+     "median": 0.086,
+     "stdev": 0.155,
+     "min": 0.036,
+     "max": 0.475
+    },
+    "reward_per_tick": {
+     "mean": -0.022,
+     "median": -0.021,
+     "stdev": 0.016,
+     "min": -0.041,
+     "max": 0.008
+    },
+    "success_rate": {
+     "mean": 1.0,
+     "median": 1.0,
+     "stdev": 0.0,
+     "min": 1.0,
+     "max": 1.0
+    }
+   },
+   "goals": {
+    "abandoned": {
+     "mean": 0.375,
+     "median": 0.0,
+     "stdev": 1.061,
+     "min": 0,
+     "max": 3
+    },
+    "achieved": {
+     "mean": 8,
+     "median": 8.0,
+     "stdev": 4.811,
+     "min": 0,
+     "max": 14
+    },
+    "blocked": {
+     "mean": 1.375,
+     "median": 1.0,
+     "stdev": 1.506,
+     "min": 0,
+     "max": 5
+    },
+    "emergent": {
+     "mean": 9.625,
+     "median": 10.0,
+     "stdev": 4.438,
+     "min": 1,
+     "max": 15
+    },
+    "total": {
+     "mean": 12.625,
+     "median": 13.0,
+     "stdev": 4.438,
+     "min": 4,
+     "max": 18
+    }
+   },
+   "adopted_strategies": {
+    "exploration.frontier_policy": {
+     "gain_per_cost": 5,
+     "max_gain": 2,
+     "nearest": 1
+    },
+    "planning.support_threshold": {
+     "balanced": 8
+    },
+    "opportunity.min_confidence": {
+     "guarded": 8
+    },
+    "risk.energy_reserve": {
+     "balanced": 8
+    },
+    "attention.temperature": {
+     "deterministic": 8
+    },
+    "attention.commitment": {
+     "steady": 8
+    }
+   }
+  },
+  "no_memory_feedback": {
+   "runs": 8,
+   "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "task": {
+    "calibrations": {
+     "mean": 6.125,
+     "median": 6.5,
+     "stdev": 2.232,
+     "min": 2,
+     "max": 9
+    },
+    "collapses": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "damage_taken": {
+     "mean": 705.0,
+     "median": 543.0,
+     "stdev": 463.861,
+     "min": 198.0,
+     "max": 1596.0
+    },
+    "exhausted_ticks": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "first_thread_tick": {
+     "mean": 549.125,
+     "median": -1.0,
+     "stdev": 1018.672,
+     "min": -1,
+     "max": 2216
+    },
+    "relic_value_banked": {
+     "mean": 20.375,
+     "median": 20.0,
+     "stdev": 11.904,
+     "min": 4.0,
+     "max": 37.0
+    },
+    "scans": {
+     "mean": 224.375,
+     "median": 228.5,
+     "stdev": 77.528,
+     "min": 128,
+     "max": 324
+    },
+    "threads_recovered": {
+     "mean": 0.375,
+     "median": 0.0,
+     "stdev": 0.744,
+     "min": 0,
+     "max": 2
+    },
+    "value_returned": {
+     "mean": 24.125,
+     "median": 20.0,
+     "stdev": 16.462,
+     "min": 4.0,
+     "max": 47.0
+    }
+   },
+   "autonomy": {
+    "agent_topology_changes": {
+     "mean": 69.625,
+     "median": 64.0,
+     "stdev": 30.933,
+     "min": 33,
+     "max": 116
+    },
+    "contradictions_resolved": {
+     "mean": 1057.75,
+     "median": 1102.5,
+     "stdev": 271.832,
+     "min": 497,
+     "max": 1348
+    },
+    "diagnoses": {
+     "mean": 14,
+     "median": 13.0,
+     "stdev": 4.928,
+     "min": 7,
+     "max": 21
+    },
+    "emergent_goals": {
+     "mean": 3.375,
+     "median": 3.0,
+     "stdev": 2.2,
+     "min": 1,
+     "max": 8
+    },
+    "goal_progress_rate": {
+     "mean": 0.095,
+     "median": 0.08,
+     "stdev": 0.088,
+     "min": 0.0,
+     "max": 0.28
+    },
+    "knowledge_gaps_resolved": {
+     "mean": 0.75,
+     "median": 0.0,
+     "stdev": 1.165,
+     "min": 0,
+     "max": 3
+    },
+    "reflection_events": {
+     "mean": 41.875,
+     "median": 41.0,
+     "stdev": 8.967,
+     "min": 28,
+     "max": 58
+    },
+    "self_initiated_ratio": {
+     "mean": 0.664,
+     "median": 0.657,
+     "stdev": 0.046,
+     "min": 0.589,
+     "max": 0.725
+    },
+    "strategy_adaptations": {
+     "mean": 1,
+     "median": 0.5,
+     "stdev": 1.414,
+     "min": 0,
+     "max": 4
+    },
+    "uncertainty_reduction": {
+     "mean": 980.661,
+     "median": 1080.705,
+     "stdev": 208.286,
+     "min": 542.94,
+     "max": 1155.02
+    }
+   },
+   "performance": {
+    "attention_entropy": {
+     "mean": 1.353,
+     "median": 1.287,
+     "stdev": 0.414,
+     "min": 0.927,
+     "max": 1.911
+    },
+    "epistemic_share": {
+     "mean": 0.161,
+     "median": 0.076,
+     "stdev": 0.183,
+     "min": 0.017,
+     "max": 0.533
+    },
+    "info_gain_per_tick": {
+     "mean": 0.186,
+     "median": 0.137,
+     "stdev": 0.15,
+     "min": 0.027,
+     "max": 0.404
+    },
+    "reward_per_tick": {
+     "mean": -0.01,
+     "median": -0.011,
+     "stdev": 0.016,
+     "min": -0.03,
+     "max": 0.012
+    },
+    "success_rate": {
+     "mean": 1.0,
+     "median": 1.0,
+     "stdev": 0.0,
+     "min": 1.0,
+     "max": 1.0
+    }
+   },
+   "goals": {
+    "abandoned": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "achieved": {
+     "mean": 2.375,
+     "median": 2.0,
+     "stdev": 2.2,
+     "min": 0,
+     "max": 7
+    },
+    "blocked": {
+     "mean": 1,
+     "median": 1.0,
+     "stdev": 0.0,
+     "min": 1,
+     "max": 1
+    },
+    "emergent": {
+     "mean": 3.375,
+     "median": 3.0,
+     "stdev": 2.2,
+     "min": 1,
+     "max": 8
+    },
+    "total": {
+     "mean": 6.375,
+     "median": 6.0,
+     "stdev": 2.2,
+     "min": 4,
+     "max": 11
+    }
+   },
+   "adopted_strategies": {
+    "exploration.frontier_policy": {
+     "gain_per_cost": 4,
+     "max_gain": 3,
+     "nearest": 1
+    },
+    "planning.support_threshold": {
+     "balanced": 8
+    },
+    "opportunity.min_confidence": {
+     "guarded": 8
+    },
+    "risk.energy_reserve": {
+     "balanced": 7,
+     "daring": 1
+    },
+    "attention.temperature": {
+     "deterministic": 8
+    },
+    "attention.commitment": {
+     "steady": 8
+    }
+   }
+  },
+  "starvation_bonus": {
+   "runs": 8,
+   "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "task": {
+    "calibrations": {
+     "mean": 7.125,
+     "median": 8.0,
+     "stdev": 3.796,
+     "min": 1,
+     "max": 11
+    },
+    "collapses": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "damage_taken": {
+     "mean": 609.0,
+     "median": 459.0,
+     "stdev": 413.447,
+     "min": 174.0,
+     "max": 1392.0
+    },
+    "exhausted_ticks": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "first_thread_tick": {
+     "mean": 150.375,
+     "median": -1.0,
+     "stdev": 428.153,
+     "min": -1,
+     "max": 1210
+    },
+    "relic_value_banked": {
+     "mean": 16.625,
+     "median": 16.5,
+     "stdev": 9.456,
+     "min": 4.0,
+     "max": 31.0
+    },
+    "scans": {
+     "mean": 211.125,
+     "median": 176.5,
+     "stdev": 133.736,
+     "min": 72,
+     "max": 504
+    },
+    "threads_recovered": {
+     "mean": 0.625,
+     "median": 0.0,
+     "stdev": 1.768,
+     "min": 0,
+     "max": 5
+    },
+    "value_returned": {
+     "mean": 22.875,
+     "median": 20.5,
+     "stdev": 14.885,
+     "min": 5.0,
+     "max": 54.0
+    }
+   },
+   "autonomy": {
+    "agent_topology_changes": {
+     "mean": 46.875,
+     "median": 45.5,
+     "stdev": 5.842,
+     "min": 40,
+     "max": 58
+    },
+    "contradictions_resolved": {
+     "mean": 1238.625,
+     "median": 1276.5,
+     "stdev": 171.55,
+     "min": 856,
+     "max": 1373
+    },
+    "diagnoses": {
+     "mean": 15,
+     "median": 14.0,
+     "stdev": 5.345,
+     "min": 9,
+     "max": 26
+    },
+    "emergent_goals": {
+     "mean": 3.5,
+     "median": 3.0,
+     "stdev": 3.338,
+     "min": 1,
+     "max": 11
+    },
+    "goal_progress_rate": {
+     "mean": 0.095,
+     "median": 0.06,
+     "stdev": 0.133,
+     "min": 0.0,
+     "max": 0.4
+    },
+    "knowledge_gaps_resolved": {
+     "mean": 1,
+     "median": 0.0,
+     "stdev": 2.07,
+     "min": 0,
+     "max": 6
+    },
+    "reflection_events": {
+     "mean": 42.75,
+     "median": 41.5,
+     "stdev": 10.278,
+     "min": 28,
+     "max": 59
+    },
+    "self_initiated_ratio": {
+     "mean": 0.69,
+     "median": 0.7,
+     "stdev": 0.038,
+     "min": 0.611,
+     "max": 0.722
+    },
+    "strategy_adaptations": {
+     "mean": 0.75,
+     "median": 0.0,
+     "stdev": 1.035,
+     "min": 0,
+     "max": 2
+    },
+    "uncertainty_reduction": {
+     "mean": 996.211,
+     "median": 982.975,
+     "stdev": 132.762,
+     "min": 772.41,
+     "max": 1196.83
+    }
+   },
+   "performance": {
+    "attention_entropy": {
+     "mean": 1.264,
+     "median": 1.334,
+     "stdev": 0.276,
+     "min": 0.837,
+     "max": 1.563
+    },
+    "epistemic_share": {
+     "mean": 0.105,
+     "median": 0.051,
+     "stdev": 0.123,
+     "min": 0.0,
+     "max": 0.3
+    },
+    "info_gain_per_tick": {
+     "mean": 0.074,
+     "median": 0.069,
+     "stdev": 0.05,
+     "min": 0.012,
+     "max": 0.173
+    },
+    "reward_per_tick": {
+     "mean": -0.022,
+     "median": -0.021,
+     "stdev": 0.009,
+     "min": -0.035,
+     "max": -0.01
+    },
+    "success_rate": {
+     "mean": 1.0,
+     "median": 1.0,
+     "stdev": 0.0,
+     "min": 1.0,
+     "max": 1.0
+    }
+   },
+   "goals": {
+    "abandoned": {
+     "mean": 0.125,
+     "median": 0.0,
+     "stdev": 0.354,
+     "min": 0,
+     "max": 1
+    },
+    "achieved": {
+     "mean": 2.375,
+     "median": 1.5,
+     "stdev": 3.335,
+     "min": 0,
+     "max": 10
+    },
+    "blocked": {
+     "mean": 1,
+     "median": 1.0,
+     "stdev": 0.0,
+     "min": 1,
+     "max": 1
+    },
+    "emergent": {
+     "mean": 3.5,
+     "median": 3.0,
+     "stdev": 3.338,
+     "min": 1,
+     "max": 11
+    },
+    "total": {
+     "mean": 6.5,
+     "median": 6.0,
+     "stdev": 3.338,
+     "min": 4,
+     "max": 14
+    }
+   },
+   "adopted_strategies": {
+    "exploration.frontier_policy": {
+     "gain_per_cost": 7,
+     "nearest": 1
+    },
+    "planning.support_threshold": {
+     "balanced": 8
+    },
+    "opportunity.min_confidence": {
+     "guarded": 8
+    },
+    "risk.energy_reserve": {
+     "balanced": 8
+    },
+    "attention.temperature": {
+     "deterministic": 8
+    },
+    "attention.commitment": {
+     "steady": 8
+    }
+   }
+  },
+  "fixed_pipeline": {
+   "runs": 8,
+   "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "task": {
+    "calibrations": {
+     "mean": 0.75,
+     "median": 0.0,
+     "stdev": 1.753,
+     "min": 0,
+     "max": 5
+    },
+    "collapses": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "damage_taken": {
+     "mean": 54.75,
+     "median": 12.0,
+     "stdev": 95.809,
+     "min": 0.0,
+     "max": 276.0
+    },
+    "exhausted_ticks": {
+     "mean": 2088.375,
+     "median": 2274.5,
+     "stdev": 406.896,
+     "min": 1301,
+     "max": 2460
+    },
+    "first_thread_tick": {
+     "mean": -1,
+     "median": -1.0,
+     "stdev": 0.0,
+     "min": -1,
+     "max": -1
+    },
+    "relic_value_banked": {
+     "mean": 0.0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0.0,
+     "max": 0.0
+    },
+    "scans": {
+     "mean": 91.125,
+     "median": 17.5,
+     "stdev": 140.819,
+     "min": 3,
+     "max": 373
+    },
+    "threads_recovered": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "value_returned": {
+     "mean": 0.0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0.0,
+     "max": 0.0
+    }
+   },
+   "autonomy": {
+    "agent_topology_changes": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "contradictions_resolved": {
+     "mean": 76.875,
+     "median": 15.5,
+     "stdev": 122.474,
+     "min": 1,
+     "max": 345
+    },
+    "diagnoses": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "emergent_goals": {
+     "mean": 1.375,
+     "median": 1.0,
+     "stdev": 0.518,
+     "min": 1,
+     "max": 2
+    },
+    "goal_progress_rate": {
+     "mean": 0.015,
+     "median": 0.0,
+     "stdev": 0.021,
+     "min": 0.0,
+     "max": 0.04
+    },
+    "knowledge_gaps_resolved": {
+     "mean": 0.375,
+     "median": 0.0,
+     "stdev": 0.518,
+     "min": 0,
+     "max": 1
+    },
+    "reflection_events": {
+     "mean": 798.25,
+     "median": 855.0,
+     "stdev": 121.415,
+     "min": 560,
+     "max": 908
+    },
+    "self_initiated_ratio": {
+     "mean": 0.965,
+     "median": 0.995,
+     "stdev": 0.057,
+     "min": 0.854,
+     "max": 1.0
+    },
+    "strategy_adaptations": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "uncertainty_reduction": {
+     "mean": 180.775,
+     "median": 89.03,
+     "stdev": 224.36,
+     "min": 31.3,
+     "max": 694.69
+    }
+   },
+   "performance": {
+    "attention_entropy": {
+     "mean": 0.0,
+     "median": -0.0,
+     "stdev": 0.0,
+     "min": -0.0,
+     "max": -0.0
+    },
+    "epistemic_share": {
+     "mean": 1.0,
+     "median": 1.0,
+     "stdev": 0.0,
+     "min": 1.0,
+     "max": 1.0
+    },
+    "info_gain_per_tick": {
+     "mean": 0.0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0.0,
+     "max": 0.0
+    },
+    "reward_per_tick": {
+     "mean": -0.15,
+     "median": -0.15,
+     "stdev": 0.0,
+     "min": -0.15,
+     "max": -0.15
+    },
+    "success_rate": {
+     "mean": 0.0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0.0,
+     "max": 0.0
+    }
+   },
+   "goals": {
+    "abandoned": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "achieved": {
+     "mean": 0.375,
+     "median": 0.0,
+     "stdev": 0.518,
+     "min": 0,
+     "max": 1
+    },
+    "blocked": {
+     "mean": 1,
+     "median": 1.0,
+     "stdev": 0.0,
+     "min": 1,
+     "max": 1
+    },
+    "emergent": {
+     "mean": 1.375,
+     "median": 1.0,
+     "stdev": 0.518,
+     "min": 1,
+     "max": 2
+    },
+    "total": {
+     "mean": 4.375,
+     "median": 4.0,
+     "stdev": 0.518,
+     "min": 4,
+     "max": 5
+    }
+   },
+   "adopted_strategies": {
+    "exploration.frontier_policy": {
+     "gain_per_cost": 8
+    },
+    "planning.support_threshold": {
+     "balanced": 8
+    },
+    "opportunity.min_confidence": {
+     "guarded": 8
+    },
+    "risk.energy_reserve": {
+     "balanced": 8
+    },
+    "attention.temperature": {
+     "deterministic": 8
+    },
+    "attention.commitment": {
+     "steady": 8
+    }
+   }
+  },
+  "random_attention": {
+   "runs": 8,
+   "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "task": {
+    "calibrations": {
+     "mean": 3.75,
+     "median": 3.0,
+     "stdev": 3.059,
+     "min": 0,
+     "max": 10
+    },
+    "collapses": {
+     "mean": 2.875,
+     "median": 0.0,
+     "stdev": 5.249,
+     "min": 0,
+     "max": 15
+    },
+    "damage_taken": {
+     "mean": 586.5,
+     "median": 384.0,
+     "stdev": 640.036,
+     "min": 42.0,
+     "max": 1806.0
+    },
+    "exhausted_ticks": {
+     "mean": 833.875,
+     "median": 669.5,
+     "stdev": 377.155,
+     "min": 467,
+     "max": 1361
+    },
+    "first_thread_tick": {
+     "mean": -1,
+     "median": -1.0,
+     "stdev": 0.0,
+     "min": -1,
+     "max": -1
+    },
+    "relic_value_banked": {
+     "mean": 4.375,
+     "median": 4.0,
+     "stdev": 2.875,
+     "min": 0.0,
+     "max": 9.0
+    },
+    "scans": {
+     "mean": 144.25,
+     "median": 134.0,
+     "stdev": 70.435,
+     "min": 52,
+     "max": 250
+    },
+    "threads_recovered": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "value_returned": {
+     "mean": 4.375,
+     "median": 4.0,
+     "stdev": 2.875,
+     "min": 0.0,
+     "max": 9.0
+    }
+   },
+   "autonomy": {
+    "agent_topology_changes": {
+     "mean": 49.25,
+     "median": 51.5,
+     "stdev": 10.62,
+     "min": 34,
+     "max": 62
+    },
+    "contradictions_resolved": {
+     "mean": 719.75,
+     "median": 914.5,
+     "stdev": 315.179,
+     "min": 283,
+     "max": 991
+    },
+    "diagnoses": {
+     "mean": 18.375,
+     "median": 18.0,
+     "stdev": 5.069,
+     "min": 9,
+     "max": 26
+    },
+    "emergent_goals": {
+     "mean": 3.25,
+     "median": 4.0,
+     "stdev": 1.669,
+     "min": 1,
+     "max": 5
+    },
+    "goal_progress_rate": {
+     "mean": 0.05,
+     "median": 0.04,
+     "stdev": 0.051,
+     "min": 0.0,
+     "max": 0.12
+    },
+    "knowledge_gaps_resolved": {
+     "mean": 0.625,
+     "median": 1.0,
+     "stdev": 0.518,
+     "min": 0,
+     "max": 1
+    },
+    "reflection_events": {
+     "mean": 349.625,
+     "median": 314.0,
+     "stdev": 96.558,
+     "min": 251,
+     "max": 489
+    },
+    "self_initiated_ratio": {
+     "mean": 0.822,
+     "median": 0.812,
+     "stdev": 0.039,
+     "min": 0.786,
+     "max": 0.9
+    },
+    "strategy_adaptations": {
+     "mean": 1.75,
+     "median": 1.5,
+     "stdev": 1.035,
+     "min": 1,
+     "max": 4
+    },
+    "uncertainty_reduction": {
+     "mean": 670.697,
+     "median": 759.475,
+     "stdev": 258.28,
+     "min": 290.91,
+     "max": 964.56
+    }
+   },
+   "performance": {
+    "attention_entropy": {
+     "mean": 1.607,
+     "median": 1.889,
+     "stdev": 0.635,
+     "min": 0.589,
+     "max": 2.2
+    },
+    "epistemic_share": {
+     "mean": 0.153,
+     "median": 0.14,
+     "stdev": 0.037,
+     "min": 0.113,
+     "max": 0.222
+    },
+    "info_gain_per_tick": {
+     "mean": 0.11,
+     "median": 0.101,
+     "stdev": 0.088,
+     "min": 0.0,
+     "max": 0.217
+    },
+    "reward_per_tick": {
+     "mean": -0.06,
+     "median": -0.055,
+     "stdev": 0.04,
+     "min": -0.125,
+     "max": 0.007
+    },
+    "success_rate": {
+     "mean": 0.509,
+     "median": 0.478,
+     "stdev": 0.402,
+     "min": 0.0,
+     "max": 1.0
+    }
+   },
+   "goals": {
+    "abandoned": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "achieved": {
+     "mean": 1.25,
+     "median": 1.0,
+     "stdev": 1.282,
+     "min": 0,
+     "max": 3
+    },
+    "blocked": {
+     "mean": 2.125,
+     "median": 1.0,
+     "stdev": 1.808,
+     "min": 1,
+     "max": 5
+    },
+    "emergent": {
+     "mean": 3.25,
+     "median": 4.0,
+     "stdev": 1.669,
+     "min": 1,
+     "max": 5
+    },
+    "total": {
+     "mean": 6.25,
+     "median": 7.0,
+     "stdev": 1.669,
+     "min": 4,
+     "max": 8
+    }
+   },
+   "adopted_strategies": {
+    "exploration.frontier_policy": {
+     "nearest": 4,
+     "gain_per_cost": 3,
+     "max_gain": 1
+    },
+    "planning.support_threshold": {
+     "balanced": 8
+    },
+    "opportunity.min_confidence": {
+     "guarded": 8
+    },
+    "risk.energy_reserve": {
+     "balanced": 7,
+     "daring": 1
+    },
+    "attention.temperature": {
+     "deterministic": 8
+    },
+    "attention.commitment": {
+     "steady": 8
+    }
+   }
+  },
+  "no_curiosity": {
+   "runs": 8,
+   "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "task": {
+    "calibrations": {
+     "mean": 0.625,
+     "median": 0.0,
+     "stdev": 1.408,
+     "min": 0,
+     "max": 4
+    },
+    "collapses": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "damage_taken": {
+     "mean": 42.75,
+     "median": 0.0,
+     "stdev": 79.304,
+     "min": 0.0,
+     "max": 180.0
+    },
+    "exhausted_ticks": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "first_thread_tick": {
+     "mean": -1,
+     "median": -1.0,
+     "stdev": 0.0,
+     "min": -1,
+     "max": -1
+    },
+    "relic_value_banked": {
+     "mean": 1.0,
+     "median": 0.0,
+     "stdev": 2.828,
+     "min": 0.0,
+     "max": 8.0
+    },
+    "scans": {
+     "mean": 12.5,
+     "median": 1.0,
+     "stdev": 19.813,
+     "min": 1,
+     "max": 52
+    },
+    "threads_recovered": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "value_returned": {
+     "mean": 1.0,
+     "median": 0.0,
+     "stdev": 2.828,
+     "min": 0.0,
+     "max": 8.0
+    }
+   },
+   "autonomy": {
+    "agent_topology_changes": {
+     "mean": 146.625,
+     "median": 171.0,
+     "stdev": 47.788,
+     "min": 58,
+     "max": 178
+    },
+    "contradictions_resolved": {
+     "mean": 51.125,
+     "median": 0.0,
+     "stdev": 114.367,
+     "min": 0,
+     "max": 327
+    },
+    "diagnoses": {
+     "mean": 7.875,
+     "median": 1.0,
+     "stdev": 12.276,
+     "min": 1,
+     "max": 33
+    },
+    "emergent_goals": {
+     "mean": 1.125,
+     "median": 1.0,
+     "stdev": 0.354,
+     "min": 1,
+     "max": 2
+    },
+    "goal_progress_rate": {
+     "mean": 0.005,
+     "median": 0.0,
+     "stdev": 0.014,
+     "min": 0.0,
+     "max": 0.04
+    },
+    "knowledge_gaps_resolved": {
+     "mean": 0.125,
+     "median": 0.0,
+     "stdev": 0.354,
+     "min": 0,
+     "max": 1
+    },
+    "reflection_events": {
+     "mean": 4.375,
+     "median": 0.0,
+     "stdev": 10.419,
+     "min": 0,
+     "max": 30
+    },
+    "self_initiated_ratio": {
+     "mean": 0.844,
+     "median": 1.0,
+     "stdev": 0.215,
+     "min": 0.575,
+     "max": 1.0
+    },
+    "strategy_adaptations": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "uncertainty_reduction": {
+     "mean": 66.86,
+     "median": 8.72,
+     "stdev": 112.224,
+     "min": 8.72,
+     "max": 320.69
+    }
+   },
+   "performance": {
+    "attention_entropy": {
+     "mean": 0.203,
+     "median": 0.0,
+     "stdev": 0.375,
+     "min": 0,
+     "max": 0.811
+    },
+    "epistemic_share": {
+     "mean": 0.047,
+     "median": 0.0,
+     "stdev": 0.093,
+     "min": 0.0,
+     "max": 0.25
+    },
+    "info_gain_per_tick": {
+     "mean": 0.013,
+     "median": 0.0,
+     "stdev": 0.03,
+     "min": 0.0,
+     "max": 0.086
+    },
+    "reward_per_tick": {
+     "mean": 0.001,
+     "median": 0.0,
+     "stdev": 0.001,
+     "min": 0.0,
+     "max": 0.002
+    },
+    "success_rate": {
+     "mean": 1.0,
+     "median": 1.0,
+     "stdev": 0.0,
+     "min": 1.0,
+     "max": 1.0
+    }
+   },
+   "goals": {
+    "abandoned": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "achieved": {
+     "mean": 0.125,
+     "median": 0.0,
+     "stdev": 0.354,
+     "min": 0,
+     "max": 1
+    },
+    "blocked": {
+     "mean": 1,
+     "median": 1.0,
+     "stdev": 0.0,
+     "min": 1,
+     "max": 1
+    },
+    "emergent": {
+     "mean": 1.125,
+     "median": 1.0,
+     "stdev": 0.354,
+     "min": 1,
+     "max": 2
+    },
+    "total": {
+     "mean": 4.125,
+     "median": 4.0,
+     "stdev": 0.354,
+     "min": 4,
+     "max": 5
+    }
+   },
+   "adopted_strategies": {
+    "exploration.frontier_policy": {
+     "gain_per_cost": 8
+    },
+    "planning.support_threshold": {
+     "balanced": 8
+    },
+    "opportunity.min_confidence": {
+     "guarded": 8
+    },
+    "risk.energy_reserve": {
+     "balanced": 8
+    },
+    "attention.temperature": {
+     "deterministic": 8
+    },
+    "attention.commitment": {
+     "steady": 8
+    }
+   }
+  },
+  "no_reflection": {
+   "runs": 8,
+   "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "task": {
+    "calibrations": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "collapses": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "damage_taken": {
+     "mean": 574.5,
+     "median": 393.0,
+     "stdev": 436.474,
+     "min": 198.0,
+     "max": 1440.0
+    },
+    "exhausted_ticks": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "first_thread_tick": {
+     "mean": 197.5,
+     "median": -1.0,
+     "stdev": 367.663,
+     "min": -1,
+     "max": 810
+    },
+    "relic_value_banked": {
+     "mean": 7.125,
+     "median": 8.5,
+     "stdev": 5.718,
+     "min": 0.0,
+     "max": 13.0
+    },
+    "scans": {
+     "mean": 95.5,
+     "median": 98.0,
+     "stdev": 22.239,
+     "min": 60,
+     "max": 126
+    },
+    "threads_recovered": {
+     "mean": 1,
+     "median": 0.0,
+     "stdev": 2.449,
+     "min": 0,
+     "max": 7
+    },
+    "value_returned": {
+     "mean": 17.125,
+     "median": 12.0,
+     "stdev": 21.676,
+     "min": 3.0,
+     "max": 70.0
+    }
+   },
+   "autonomy": {
+    "agent_topology_changes": {
+     "mean": 69.375,
+     "median": 67.0,
+     "stdev": 24.813,
+     "min": 42,
+     "max": 125
+    },
+    "contradictions_resolved": {
+     "mean": 965.375,
+     "median": 937.5,
+     "stdev": 268.912,
+     "min": 526,
+     "max": 1284
+    },
+    "diagnoses": {
+     "mean": 16,
+     "median": 15.0,
+     "stdev": 5.099,
+     "min": 10,
+     "max": 27
+    },
+    "emergent_goals": {
+     "mean": 3.875,
+     "median": 3.5,
+     "stdev": 2.997,
+     "min": 1,
+     "max": 10
+    },
+    "goal_progress_rate": {
+     "mean": 0.115,
+     "median": 0.1,
+     "stdev": 0.12,
+     "min": 0.0,
+     "max": 0.36
+    },
+    "knowledge_gaps_resolved": {
+     "mean": 1.5,
+     "median": 1.0,
+     "stdev": 2.33,
+     "min": 0,
+     "max": 7
+    },
+    "reflection_events": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "self_initiated_ratio": {
+     "mean": 0.636,
+     "median": 0.647,
+     "stdev": 0.045,
+     "min": 0.569,
+     "max": 0.688
+    },
+    "strategy_adaptations": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "uncertainty_reduction": {
+     "mean": 910.061,
+     "median": 906.57,
+     "stdev": 216.831,
+     "min": 592.26,
+     "max": 1185.24
+    }
+   },
+   "performance": {
+    "attention_entropy": {
+     "mean": 1.289,
+     "median": 1.266,
+     "stdev": 0.267,
+     "min": 1.0,
+     "max": 1.66
+    },
+    "epistemic_share": {
+     "mean": 0.269,
+     "median": 0.235,
+     "stdev": 0.173,
+     "min": 0.033,
+     "max": 0.533
+    },
+    "info_gain_per_tick": {
+     "mean": 0.193,
+     "median": 0.199,
+     "stdev": 0.153,
+     "min": 0.0,
+     "max": 0.377
+    },
+    "reward_per_tick": {
+     "mean": -0.013,
+     "median": -0.011,
+     "stdev": 0.012,
+     "min": -0.032,
+     "max": 0.001
+    },
+    "success_rate": {
+     "mean": 1.0,
+     "median": 1.0,
+     "stdev": 0.0,
+     "min": 1.0,
+     "max": 1.0
+    }
+   },
+   "goals": {
+    "abandoned": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "achieved": {
+     "mean": 2.875,
+     "median": 2.5,
+     "stdev": 2.997,
+     "min": 0,
+     "max": 9
+    },
+    "blocked": {
+     "mean": 1,
+     "median": 1.0,
+     "stdev": 0.0,
+     "min": 1,
+     "max": 1
+    },
+    "emergent": {
+     "mean": 3.875,
+     "median": 3.5,
+     "stdev": 2.997,
+     "min": 1,
+     "max": 10
+    },
+    "total": {
+     "mean": 6.875,
+     "median": 6.5,
+     "stdev": 2.997,
+     "min": 4,
+     "max": 13
+    }
+   },
+   "adopted_strategies": {
+    "exploration.frontier_policy": {
+     "gain_per_cost": 8
+    },
+    "planning.support_threshold": {
+     "balanced": 8
+    },
+    "opportunity.min_confidence": {
+     "guarded": 8
+    },
+    "risk.energy_reserve": {
+     "balanced": 8
+    },
+    "attention.temperature": {
+     "deterministic": 8
+    },
+    "attention.commitment": {
+     "steady": 8
+    }
+   }
+  },
+  "no_metacognition": {
+   "runs": 8,
+   "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "task": {
+    "calibrations": {
+     "mean": 5.875,
+     "median": 7.0,
+     "stdev": 2.8,
+     "min": 1,
+     "max": 8
+    },
+    "collapses": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "damage_taken": {
+     "mean": 492.0,
+     "median": 414.0,
+     "stdev": 379.528,
+     "min": 90.0,
+     "max": 1122.0
+    },
+    "exhausted_ticks": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "first_thread_tick": {
+     "mean": 205.75,
+     "median": -1.0,
+     "stdev": 291.221,
+     "min": -1,
+     "max": 676
+    },
+    "relic_value_banked": {
+     "mean": 11.625,
+     "median": 8.0,
+     "stdev": 9.531,
+     "min": 3.0,
+     "max": 28.0
+    },
+    "scans": {
+     "mean": 301.75,
+     "median": 175.0,
+     "stdev": 270.061,
+     "min": 69,
+     "max": 797
+    },
+    "threads_recovered": {
+     "mean": 2.75,
+     "median": 0.0,
+     "stdev": 4.979,
+     "min": 0,
+     "max": 13
+    },
+    "value_returned": {
+     "mean": 39.125,
+     "median": 21.5,
+     "stdev": 47.945,
+     "min": 3.0,
+     "max": 135.0
+    }
+   },
+   "autonomy": {
+    "agent_topology_changes": {
+     "mean": 65.75,
+     "median": 63.5,
+     "stdev": 15.764,
+     "min": 46,
+     "max": 89
+    },
+    "contradictions_resolved": {
+     "mean": 1002.375,
+     "median": 990.5,
+     "stdev": 139.047,
+     "min": 742,
+     "max": 1194
+    },
+    "diagnoses": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "emergent_goals": {
+     "mean": 5.5,
+     "median": 2.5,
+     "stdev": 6.141,
+     "min": 1,
+     "max": 18
+    },
+    "goal_progress_rate": {
+     "mean": 0.175,
+     "median": 0.06,
+     "stdev": 0.234,
+     "min": 0.0,
+     "max": 0.64
+    },
+    "knowledge_gaps_resolved": {
+     "mean": 2.875,
+     "median": 1.0,
+     "stdev": 4.704,
+     "min": 0,
+     "max": 13
+    },
+    "reflection_events": {
+     "mean": 39.125,
+     "median": 39.0,
+     "stdev": 16.531,
+     "min": 19,
+     "max": 70
+    },
+    "self_initiated_ratio": {
+     "mean": 0.654,
+     "median": 0.66,
+     "stdev": 0.048,
+     "min": 0.546,
+     "max": 0.709
+    },
+    "strategy_adaptations": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "uncertainty_reduction": {
+     "mean": 985.29,
+     "median": 947.685,
+     "stdev": 192.882,
+     "min": 799.83,
+     "max": 1432.36
+    }
+   },
+   "performance": {
+    "attention_entropy": {
+     "mean": 1.093,
+     "median": 1.002,
+     "stdev": 0.293,
+     "min": 0.852,
+     "max": 1.764
+    },
+    "epistemic_share": {
+     "mean": 0.145,
+     "median": 0.109,
+     "stdev": 0.114,
+     "min": 0.033,
+     "max": 0.364
+    },
+    "info_gain_per_tick": {
+     "mean": 0.222,
+     "median": 0.181,
+     "stdev": 0.198,
+     "min": 0.032,
+     "max": 0.636
+    },
+    "reward_per_tick": {
+     "mean": -0.006,
+     "median": -0.009,
+     "stdev": 0.021,
+     "min": -0.034,
+     "max": 0.035
+    },
+    "success_rate": {
+     "mean": 1.0,
+     "median": 1.0,
+     "stdev": 0.0,
+     "min": 1.0,
+     "max": 1.0
+    }
+   },
+   "goals": {
+    "abandoned": {
+     "mean": 0.125,
+     "median": 0.0,
+     "stdev": 0.354,
+     "min": 0,
+     "max": 1
+    },
+    "achieved": {
+     "mean": 4.375,
+     "median": 1.5,
+     "stdev": 5.854,
+     "min": 0,
+     "max": 16
+    },
+    "blocked": {
+     "mean": 1,
+     "median": 1.0,
+     "stdev": 0.0,
+     "min": 1,
+     "max": 1
+    },
+    "emergent": {
+     "mean": 5.5,
+     "median": 2.5,
+     "stdev": 6.141,
+     "min": 1,
+     "max": 18
+    },
+    "total": {
+     "mean": 8.5,
+     "median": 5.5,
+     "stdev": 6.141,
+     "min": 4,
+     "max": 21
+    }
+   },
+   "adopted_strategies": {
+    "exploration.frontier_policy": {
+     "gain_per_cost": 8
+    },
+    "planning.support_threshold": {
+     "balanced": 8
+    },
+    "opportunity.min_confidence": {
+     "guarded": 8
+    },
+    "risk.energy_reserve": {
+     "balanced": 8
+    },
+    "attention.temperature": {
+     "deterministic": 8
+    },
+    "attention.commitment": {
+     "steady": 8
+    }
+   }
+  },
+  "no_organization": {
+   "runs": 8,
+   "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "task": {
+    "calibrations": {
+     "mean": 4.875,
+     "median": 5.0,
+     "stdev": 2.167,
+     "min": 2,
+     "max": 8
+    },
+    "collapses": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "damage_taken": {
+     "mean": 397.5,
+     "median": 270.0,
+     "stdev": 395.646,
+     "min": 24.0,
+     "max": 1194.0
+    },
+    "exhausted_ticks": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "first_thread_tick": {
+     "mean": 260.875,
+     "median": -1.0,
+     "stdev": 740.694,
+     "min": -1,
+     "max": 2094
+    },
+    "relic_value_banked": {
+     "mean": 17.125,
+     "median": 19.0,
+     "stdev": 10.934,
+     "min": 0.0,
+     "max": 34.0
+    },
+    "scans": {
+     "mean": 383.75,
+     "median": 324.0,
+     "stdev": 226.161,
+     "min": 165,
+     "max": 717
+    },
+    "threads_recovered": {
+     "mean": 0.125,
+     "median": 0.0,
+     "stdev": 0.354,
+     "min": 0,
+     "max": 1
+    },
+    "value_returned": {
+     "mean": 18.375,
+     "median": 19.0,
+     "stdev": 12.432,
+     "min": 0.0,
+     "max": 35.0
+    }
+   },
+   "autonomy": {
+    "agent_topology_changes": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "contradictions_resolved": {
+     "mean": 834.625,
+     "median": 858.0,
+     "stdev": 110.214,
+     "min": 607,
+     "max": 973
+    },
+    "diagnoses": {
+     "mean": 12.75,
+     "median": 13.0,
+     "stdev": 6.409,
+     "min": 4,
+     "max": 23
+    },
+    "emergent_goals": {
+     "mean": 2.75,
+     "median": 1.5,
+     "stdev": 2.765,
+     "min": 1,
+     "max": 9
+    },
+    "goal_progress_rate": {
+     "mean": 0.07,
+     "median": 0.02,
+     "stdev": 0.111,
+     "min": 0.0,
+     "max": 0.32
+    },
+    "knowledge_gaps_resolved": {
+     "mean": 0.625,
+     "median": 0.0,
+     "stdev": 1.408,
+     "min": 0,
+     "max": 4
+    },
+    "reflection_events": {
+     "mean": 35,
+     "median": 38.0,
+     "stdev": 16.971,
+     "min": 5,
+     "max": 52
+    },
+    "self_initiated_ratio": {
+     "mean": 0.654,
+     "median": 0.658,
+     "stdev": 0.025,
+     "min": 0.62,
+     "max": 0.685
+    },
+    "strategy_adaptations": {
+     "mean": 0.375,
+     "median": 0.0,
+     "stdev": 0.518,
+     "min": 0,
+     "max": 1
+    },
+    "uncertainty_reduction": {
+     "mean": 968.086,
+     "median": 920.33,
+     "stdev": 181.019,
+     "min": 779.22,
+     "max": 1367.37
+    }
+   },
+   "performance": {
+    "attention_entropy": {
+     "mean": 1.133,
+     "median": 1.07,
+     "stdev": 0.223,
+     "min": 0.881,
+     "max": 1.537
+    },
+    "epistemic_share": {
+     "mean": 0.294,
+     "median": 0.287,
+     "stdev": 0.119,
+     "min": 0.086,
+     "max": 0.5
+    },
+    "info_gain_per_tick": {
+     "mean": 0.233,
+     "median": 0.201,
+     "stdev": 0.208,
+     "min": 0.013,
+     "max": 0.536
+    },
+    "reward_per_tick": {
+     "mean": -0.005,
+     "median": -0.008,
+     "stdev": 0.025,
+     "min": -0.041,
+     "max": 0.032
+    },
+    "success_rate": {
+     "mean": 1.0,
+     "median": 1.0,
+     "stdev": 0.0,
+     "min": 1.0,
+     "max": 1.0
+    }
+   },
+   "goals": {
+    "abandoned": {
+     "mean": 0,
+     "median": 0.0,
+     "stdev": 0.0,
+     "min": 0,
+     "max": 0
+    },
+    "achieved": {
+     "mean": 1.75,
+     "median": 0.5,
+     "stdev": 2.765,
+     "min": 0,
+     "max": 8
+    },
+    "blocked": {
+     "mean": 0.875,
+     "median": 1.0,
+     "stdev": 0.354,
+     "min": 0,
+     "max": 1
+    },
+    "emergent": {
+     "mean": 2.75,
+     "median": 1.5,
+     "stdev": 2.765,
+     "min": 1,
+     "max": 9
+    },
+    "total": {
+     "mean": 5.75,
+     "median": 4.5,
+     "stdev": 2.765,
+     "min": 4,
+     "max": 12
+    }
+   },
+   "adopted_strategies": {
+    "exploration.frontier_policy": {
+     "gain_per_cost": 6,
+     "nearest": 2
+    },
+    "planning.support_threshold": {
+     "balanced": 8
+    },
+    "opportunity.min_confidence": {
+     "guarded": 8
+    },
+    "risk.energy_reserve": {
+     "balanced": 7,
+     "cautious": 1
+    },
+    "attention.temperature": {
+     "deterministic": 8
+    },
+    "attention.commitment": {
+     "steady": 8
+    }
+   }
+  }
+ }
+}

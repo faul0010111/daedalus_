@@ -1,0 +1,8912 @@
+[
+ {
+  "preset": "full",
+  "seed": 1,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 21.0,
+   "collapses": 0,
+   "damage_taken": 810.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 151,
+   "calibrations": 5,
+   "value_returned": 21.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.689,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 45,
+   "reflection_events": 44,
+   "uncertainty_reduction": 1068.22,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 1212,
+   "diagnoses": 16
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0219,
+   "info_gain_per_tick": 0.1417,
+   "attention_entropy": 1.205,
+   "epistemic_share": 0.034
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.633,
+   "advance_goal": 0.317,
+   "reorganize": 0.017,
+   "exploit_opportunity": 0.033
+  },
+  "seconds": 6.01,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 1,
+    "uncertainty": 44.5
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 9.0,
+    "emergent_goals": 1,
+    "uncertainty": 63.93
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 15.0,
+    "emergent_goals": 1,
+    "uncertainty": 58.19
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 21.0,
+    "emergent_goals": 1,
+    "uncertainty": 72.15
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 21.0,
+    "emergent_goals": 1,
+    "uncertainty": 86.54
+   }
+  ]
+ },
+ {
+  "preset": "full",
+  "seed": 2,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 3.0,
+   "collapses": 0,
+   "damage_taken": 156.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 219,
+   "calibrations": 8,
+   "value_returned": 3.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.68,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 42,
+   "reflection_events": 26,
+   "uncertainty_reduction": 826.78,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 1155,
+   "diagnoses": 15
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0145,
+   "info_gain_per_tick": 0.0098,
+   "attention_entropy": 0.811,
+   "epistemic_share": 0.017
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.75,
+   "advance_goal": 0.25
+  },
+  "seconds": 4.84,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 3.0,
+    "emergent_goals": 1,
+    "uncertainty": 37.63
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 3.0,
+    "emergent_goals": 1,
+    "uncertainty": 35.65
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 3.0,
+    "emergent_goals": 1,
+    "uncertainty": 45.91
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 3.0,
+    "emergent_goals": 1,
+    "uncertainty": 61.49
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 3.0,
+    "emergent_goals": 1,
+    "uncertainty": 75.89
+   }
+  ]
+ },
+ {
+  "preset": "full",
+  "seed": 3,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 8.0,
+   "collapses": 0,
+   "damage_taken": 420.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 586,
+   "calibrations": 13,
+   "value_returned": 8.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.686,
+   "emergent_goals": 4,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 1,
+   "agent_topology_changes": 161,
+   "reflection_events": 31,
+   "uncertainty_reduction": 939.74,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 983,
+   "diagnoses": 9
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": 0.0001,
+   "info_gain_per_tick": 0.3773,
+   "attention_entropy": 1.126,
+   "epistemic_share": 0.276
+  },
+  "goals": {
+   "total": 7,
+   "achieved": 0,
+   "emergent": 4,
+   "abandoned": 0,
+   "blocked": 5
+  },
+  "strategies": {
+   "exploration.frontier_policy": "max_gain",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.65,
+   "advance_goal": 0.317,
+   "consolidate_memory": 0.017,
+   "exploit_opportunity": 0.017
+  },
+  "seconds": 4.57,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 1,
+    "uncertainty": 46.41
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 46.23
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 6.0,
+    "emergent_goals": 1,
+    "uncertainty": 56.24
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 6.0,
+    "emergent_goals": 1,
+    "uncertainty": 63.28
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 8.0,
+    "emergent_goals": 4,
+    "uncertainty": 73.62
+   }
+  ]
+ },
+ {
+  "preset": "full",
+  "seed": 4,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 11,
+   "relic_value_banked": 8.0,
+   "collapses": 0,
+   "damage_taken": 936.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 407,
+   "scans": 114,
+   "calibrations": 4,
+   "value_returned": 118.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.637,
+   "emergent_goals": 13,
+   "knowledge_gaps_resolved": 11,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 46,
+   "reflection_events": 55,
+   "uncertainty_reduction": 1120.35,
+   "goal_progress_rate": 0.48,
+   "contradictions_resolved": 1322,
+   "diagnoses": 11
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0033,
+   "info_gain_per_tick": 0.2102,
+   "attention_entropy": 1.675,
+   "epistemic_share": 0.102
+  },
+  "goals": {
+   "total": 16,
+   "achieved": 12,
+   "emergent": 13,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 0.1,
+   "explore": 0.333,
+   "advance_goal": 0.5,
+   "validate": 0.017,
+   "exploit_opportunity": 0.05
+  },
+  "seconds": 8.86,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 1,
+    "banked": 0.0,
+    "emergent_goals": 3,
+    "uncertainty": 58.13
+   },
+   {
+    "tick": 1000,
+    "threads": 3,
+    "banked": 3.0,
+    "emergent_goals": 5,
+    "uncertainty": 81.0
+   },
+   {
+    "tick": 1500,
+    "threads": 5,
+    "banked": 6.0,
+    "emergent_goals": 7,
+    "uncertainty": 86.78
+   },
+   {
+    "tick": 2000,
+    "threads": 8,
+    "banked": 6.0,
+    "emergent_goals": 10,
+    "uncertainty": 94.69
+   },
+   {
+    "tick": 2500,
+    "threads": 11,
+    "banked": 8.0,
+    "emergent_goals": 13,
+    "uncertainty": 111.51
+   }
+  ]
+ },
+ {
+  "preset": "full",
+  "seed": 5,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 8,
+   "relic_value_banked": 18.0,
+   "collapses": 0,
+   "damage_taken": 606.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 885,
+   "scans": 104,
+   "calibrations": 3,
+   "value_returned": 98.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.667,
+   "emergent_goals": 12,
+   "knowledge_gaps_resolved": 9,
+   "strategy_adaptations": 1,
+   "agent_topology_changes": 41,
+   "reflection_events": 56,
+   "uncertainty_reduction": 1253.61,
+   "goal_progress_rate": 0.48,
+   "contradictions_resolved": 1394,
+   "diagnoses": 12
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.009,
+   "info_gain_per_tick": 0.2815,
+   "attention_entropy": 1.454,
+   "epistemic_share": 0.133
+  },
+  "goals": {
+   "total": 15,
+   "achieved": 12,
+   "emergent": 12,
+   "abandoned": 0,
+   "blocked": 0
+  },
+  "strategies": {
+   "exploration.frontier_policy": "max_gain",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 0.1,
+   "explore": 0.367,
+   "advance_goal": 0.517,
+   "validate": 0.017
+  },
+  "seconds": 9.04,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 8.0,
+    "emergent_goals": 2,
+    "uncertainty": 57.58
+   },
+   {
+    "tick": 1000,
+    "threads": 1,
+    "banked": 18.0,
+    "emergent_goals": 5,
+    "uncertainty": 71.81
+   },
+   {
+    "tick": 1500,
+    "threads": 6,
+    "banked": 18.0,
+    "emergent_goals": 10,
+    "uncertainty": 86.32
+   },
+   {
+    "tick": 2000,
+    "threads": 6,
+    "banked": 18.0,
+    "emergent_goals": 10,
+    "uncertainty": 102.66
+   },
+   {
+    "tick": 2500,
+    "threads": 8,
+    "banked": 18.0,
+    "emergent_goals": 12,
+    "uncertainty": 117.65
+   }
+  ]
+ },
+ {
+  "preset": "full",
+  "seed": 6,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 14.0,
+   "collapses": 0,
+   "damage_taken": 366.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 120,
+   "calibrations": 5,
+   "value_returned": 14.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.733,
+   "emergent_goals": 3,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 60,
+   "reflection_events": 49,
+   "uncertainty_reduction": 1130.87,
+   "goal_progress_rate": 0.08,
+   "contradictions_resolved": 1256,
+   "diagnoses": 14
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0284,
+   "info_gain_per_tick": 0.1348,
+   "attention_entropy": 1.384,
+   "epistemic_share": 0.167
+  },
+  "goals": {
+   "total": 6,
+   "achieved": 2,
+   "emergent": 3,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.583,
+   "advance_goal": 0.25,
+   "resolve_contradiction": 0.167
+  },
+  "seconds": 9.67,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 2.0,
+    "emergent_goals": 1,
+    "uncertainty": 42.51
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 7.0,
+    "emergent_goals": 1,
+    "uncertainty": 59.34
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 7.0,
+    "emergent_goals": 1,
+    "uncertainty": 77.4
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 9.0,
+    "emergent_goals": 1,
+    "uncertainty": 85.2
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 14.0,
+    "emergent_goals": 3,
+    "uncertainty": 99.68
+   }
+  ]
+ },
+ {
+  "preset": "full",
+  "seed": 7,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 12.0,
+   "collapses": 0,
+   "damage_taken": 576.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 99,
+   "calibrations": 2,
+   "value_returned": 12.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.723,
+   "emergent_goals": 3,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 2,
+   "agent_topology_changes": 46,
+   "reflection_events": 61,
+   "uncertainty_reduction": 1184.2,
+   "goal_progress_rate": 0.08,
+   "contradictions_resolved": 1355,
+   "diagnoses": 13
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0144,
+   "info_gain_per_tick": 0.1752,
+   "attention_entropy": 1.906,
+   "epistemic_share": 0.207
+  },
+  "goals": {
+   "total": 6,
+   "achieved": 2,
+   "emergent": 3,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 0.317,
+   "exploit_opportunity": 0.033,
+   "advance_goal": 0.233,
+   "explore": 0.383,
+   "adapt_strategy": 0.017,
+   "reorganize": 0.017
+  },
+  "seconds": 8.62,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 44.52
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 3.0,
+    "emergent_goals": 1,
+    "uncertainty": 57.48
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 10.0,
+    "emergent_goals": 3,
+    "uncertainty": 68.03
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 10.0,
+    "emergent_goals": 3,
+    "uncertainty": 86.56
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 12.0,
+    "emergent_goals": 3,
+    "uncertainty": 92.13
+   }
+  ]
+ },
+ {
+  "preset": "full",
+  "seed": 8,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 8,
+   "relic_value_banked": 5.0,
+   "collapses": 0,
+   "damage_taken": 852.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 1106,
+   "scans": 88,
+   "calibrations": 1,
+   "value_returned": 85.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.636,
+   "emergent_goals": 14,
+   "knowledge_gaps_resolved": 9,
+   "strategy_adaptations": 2,
+   "agent_topology_changes": 48,
+   "reflection_events": 60,
+   "uncertainty_reduction": 1089.85,
+   "goal_progress_rate": 0.52,
+   "contradictions_resolved": 1183,
+   "diagnoses": 12
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0069,
+   "info_gain_per_tick": 0.1656,
+   "attention_entropy": 1.429,
+   "epistemic_share": 0.117
+  },
+  "goals": {
+   "total": 17,
+   "achieved": 13,
+   "emergent": 14,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.4,
+   "resolve_contradiction": 0.133,
+   "explore": 0.467
+  },
+  "seconds": 13.96,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 5,
+    "uncertainty": 60.26
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 6,
+    "uncertainty": 75.65
+   },
+   {
+    "tick": 1500,
+    "threads": 3,
+    "banked": 5.0,
+    "emergent_goals": 9,
+    "uncertainty": 84.46
+   },
+   {
+    "tick": 2000,
+    "threads": 5,
+    "banked": 5.0,
+    "emergent_goals": 11,
+    "uncertainty": 101.26
+   },
+   {
+    "tick": 2500,
+    "threads": 8,
+    "banked": 5.0,
+    "emergent_goals": 14,
+    "uncertainty": 105.16
+   }
+  ]
+ },
+ {
+  "preset": "with_drives",
+  "seed": 1,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 3,
+   "relic_value_banked": 9.0,
+   "collapses": 0,
+   "damage_taken": 1194.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 468,
+   "scans": 129,
+   "calibrations": 2,
+   "value_returned": 39.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.665,
+   "emergent_goals": 5,
+   "knowledge_gaps_resolved": 3,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 42,
+   "reflection_events": 44,
+   "uncertainty_reduction": 933.34,
+   "goal_progress_rate": 0.16,
+   "contradictions_resolved": 1319,
+   "diagnoses": 18
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0283,
+   "info_gain_per_tick": 0.0214,
+   "attention_entropy": 0.971,
+   "epistemic_share": 0.0
+  },
+  "goals": {
+   "total": 8,
+   "achieved": 4,
+   "emergent": 5,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.4,
+   "explore": 0.6
+  },
+  "seconds": 6.69,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 1,
+    "banked": 0.0,
+    "emergent_goals": 3,
+    "uncertainty": 35.07
+   },
+   {
+    "tick": 1000,
+    "threads": 1,
+    "banked": 6.0,
+    "emergent_goals": 3,
+    "uncertainty": 70.6
+   },
+   {
+    "tick": 1500,
+    "threads": 2,
+    "banked": 6.0,
+    "emergent_goals": 4,
+    "uncertainty": 78.79
+   },
+   {
+    "tick": 2000,
+    "threads": 3,
+    "banked": 6.0,
+    "emergent_goals": 5,
+    "uncertainty": 93.34
+   },
+   {
+    "tick": 2500,
+    "threads": 3,
+    "banked": 9.0,
+    "emergent_goals": 5,
+    "uncertainty": 104.5
+   }
+  ]
+ },
+ {
+  "preset": "with_drives",
+  "seed": 2,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 23.0,
+   "collapses": 0,
+   "damage_taken": 570.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 243,
+   "calibrations": 9,
+   "value_returned": 23.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.699,
+   "emergent_goals": 3,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 1,
+   "agent_topology_changes": 58,
+   "reflection_events": 33,
+   "uncertainty_reduction": 1031.88,
+   "goal_progress_rate": 0.08,
+   "contradictions_resolved": 1277,
+   "diagnoses": 15
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0139,
+   "info_gain_per_tick": 0.1359,
+   "attention_entropy": 0.974,
+   "epistemic_share": 0.052
+  },
+  "goals": {
+   "total": 6,
+   "achieved": 2,
+   "emergent": 3,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "nearest",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.283,
+   "explore": 0.7,
+   "adapt_strategy": 0.017
+  },
+  "seconds": 6.34,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 3.0,
+    "emergent_goals": 1,
+    "uncertainty": 42.4
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 81.91
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 100.99
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 12.0,
+    "emergent_goals": 1,
+    "uncertainty": 105.43
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 23.0,
+    "emergent_goals": 3,
+    "uncertainty": 131.39
+   }
+  ]
+ },
+ {
+  "preset": "with_drives",
+  "seed": 3,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 22.0,
+   "collapses": 0,
+   "damage_taken": 618.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 409,
+   "calibrations": 11,
+   "value_returned": 22.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.676,
+   "emergent_goals": 4,
+   "knowledge_gaps_resolved": 1,
+   "strategy_adaptations": 1,
+   "agent_topology_changes": 92,
+   "reflection_events": 44,
+   "uncertainty_reduction": 1196.53,
+   "goal_progress_rate": 0.12,
+   "contradictions_resolved": 1023,
+   "diagnoses": 10
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0283,
+   "info_gain_per_tick": 0.0208,
+   "attention_entropy": 1.0,
+   "epistemic_share": 0.5
+  },
+  "goals": {
+   "total": 7,
+   "achieved": 3,
+   "emergent": 4,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "max_gain",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 0.5,
+   "advance_goal": 0.5
+  },
+  "seconds": 6.5,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 1,
+    "uncertainty": 38.31
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 4,
+    "uncertainty": 57.87
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 4,
+    "uncertainty": 71.23
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 9.0,
+    "emergent_goals": 4,
+    "uncertainty": 85.89
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 22.0,
+    "emergent_goals": 4,
+    "uncertainty": 126.67
+   }
+  ]
+ },
+ {
+  "preset": "with_drives",
+  "seed": 4,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 2,
+   "relic_value_banked": 5.0,
+   "collapses": 0,
+   "damage_taken": 780.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 1883,
+   "scans": 128,
+   "calibrations": 6,
+   "value_returned": 25.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.683,
+   "emergent_goals": 7,
+   "knowledge_gaps_resolved": 2,
+   "strategy_adaptations": 1,
+   "agent_topology_changes": 44,
+   "reflection_events": 56,
+   "uncertainty_reduction": 929.83,
+   "goal_progress_rate": 0.24,
+   "contradictions_resolved": 1306,
+   "diagnoses": 20
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0164,
+   "info_gain_per_tick": 0.0487,
+   "attention_entropy": 1.584,
+   "epistemic_share": 0.183
+  },
+  "goals": {
+   "total": 10,
+   "achieved": 6,
+   "emergent": 7,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "nearest",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 0.317,
+   "advance_goal": 0.333,
+   "explore": 0.35
+  },
+  "seconds": 7.66,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 77.37
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 3,
+    "uncertainty": 102.97
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 3,
+    "uncertainty": 95.76
+   },
+   {
+    "tick": 2000,
+    "threads": 1,
+    "banked": 0.0,
+    "emergent_goals": 6,
+    "uncertainty": 102.09
+   },
+   {
+    "tick": 2500,
+    "threads": 2,
+    "banked": 5.0,
+    "emergent_goals": 7,
+    "uncertainty": 121.24
+   }
+  ]
+ },
+ {
+  "preset": "with_drives",
+  "seed": 5,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 13.0,
+   "collapses": 0,
+   "damage_taken": 474.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 113,
+   "calibrations": 1,
+   "value_returned": 13.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.726,
+   "emergent_goals": 2,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 1,
+   "agent_topology_changes": 34,
+   "reflection_events": 26,
+   "uncertainty_reduction": 1174.98,
+   "goal_progress_rate": 0.04,
+   "contradictions_resolved": 1459,
+   "diagnoses": 13
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0098,
+   "info_gain_per_tick": 0.1789,
+   "attention_entropy": 0.951,
+   "epistemic_share": 0.051
+  },
+  "goals": {
+   "total": 5,
+   "achieved": 1,
+   "emergent": 2,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "nearest",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.717,
+   "advance_goal": 0.267,
+   "exploit_opportunity": 0.017
+  },
+  "seconds": 8.09,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 49.88
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 58.56
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 8.0,
+    "emergent_goals": 2,
+    "uncertainty": 66.37
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 11.0,
+    "emergent_goals": 2,
+    "uncertainty": 75.54
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 13.0,
+    "emergent_goals": 2,
+    "uncertainty": 79.56
+   }
+  ]
+ },
+ {
+  "preset": "with_drives",
+  "seed": 6,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 7.0,
+   "collapses": 0,
+   "damage_taken": 408.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 108,
+   "calibrations": 3,
+   "value_returned": 7.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.704,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 60,
+   "reflection_events": 48,
+   "uncertainty_reduction": 997.82,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 1143,
+   "diagnoses": 16
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0209,
+   "info_gain_per_tick": 0.1484,
+   "attention_entropy": 1.552,
+   "epistemic_share": 0.117
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 0.267,
+   "advance_goal": 0.3,
+   "explore": 0.433
+  },
+  "seconds": 10.18,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 2.0,
+    "emergent_goals": 1,
+    "uncertainty": 17.38
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 2.0,
+    "emergent_goals": 1,
+    "uncertainty": 55.02
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 63.7
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 73.66
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 7.0,
+    "emergent_goals": 1,
+    "uncertainty": 85.03
+   }
+  ]
+ },
+ {
+  "preset": "with_drives",
+  "seed": 7,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 9.0,
+   "collapses": 0,
+   "damage_taken": 588.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 234,
+   "calibrations": 6,
+   "value_returned": 9.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.733,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 1,
+   "agent_topology_changes": 47,
+   "reflection_events": 32,
+   "uncertainty_reduction": 951.88,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 1428,
+   "diagnoses": 13
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0139,
+   "info_gain_per_tick": 0.0451,
+   "attention_entropy": 0.837,
+   "epistemic_share": 0.035
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "nearest",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.267,
+   "explore": 0.733
+  },
+  "seconds": 6.25,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 73.39
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 7.0,
+    "emergent_goals": 1,
+    "uncertainty": 81.12
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 7.0,
+    "emergent_goals": 1,
+    "uncertainty": 100.29
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 9.0,
+    "emergent_goals": 1,
+    "uncertainty": 114.46
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 9.0,
+    "emergent_goals": 1,
+    "uncertainty": 134.94
+   }
+  ]
+ },
+ {
+  "preset": "with_drives",
+  "seed": 8,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 5,
+   "relic_value_banked": 5.0,
+   "collapses": 0,
+   "damage_taken": 1254.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 1050,
+   "scans": 113,
+   "calibrations": 2,
+   "value_returned": 55.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.614,
+   "emergent_goals": 9,
+   "knowledge_gaps_resolved": 6,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 52,
+   "reflection_events": 53,
+   "uncertainty_reduction": 1075.33,
+   "goal_progress_rate": 0.36,
+   "contradictions_resolved": 1054,
+   "diagnoses": 14
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0289,
+   "info_gain_per_tick": 0.0055,
+   "attention_entropy": 0.999,
+   "epistemic_share": 0.483
+  },
+  "goals": {
+   "total": 12,
+   "achieved": 9,
+   "emergent": 9,
+   "abandoned": 0,
+   "blocked": 0
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.517,
+   "resolve_contradiction": 0.483
+  },
+  "seconds": 9.89,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 3,
+    "uncertainty": 46.89
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 4,
+    "uncertainty": 78.79
+   },
+   {
+    "tick": 1500,
+    "threads": 4,
+    "banked": 5.0,
+    "emergent_goals": 8,
+    "uncertainty": 79.83
+   },
+   {
+    "tick": 2000,
+    "threads": 4,
+    "banked": 5.0,
+    "emergent_goals": 8,
+    "uncertainty": 92.31
+   },
+   {
+    "tick": 2500,
+    "threads": 5,
+    "banked": 5.0,
+    "emergent_goals": 9,
+    "uncertainty": 117.79
+   }
+  ]
+ },
+ {
+  "preset": "static_weights",
+  "seed": 1,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 5.0,
+   "collapses": 0,
+   "damage_taken": 72.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 49,
+   "calibrations": 3,
+   "value_returned": 5.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.532,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 141,
+   "reflection_events": 31,
+   "uncertainty_reduction": 245.33,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 140,
+   "diagnoses": 9
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0296,
+   "info_gain_per_tick": 0.005,
+   "attention_entropy": 1.0,
+   "epistemic_share": 0.5
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 0.5,
+   "advance_goal": 0.5
+  },
+  "seconds": 4.63,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 2.0,
+    "emergent_goals": 1,
+    "uncertainty": 35.39
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 66.78
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 70.39
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 71.0
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 71.02
+   }
+  ]
+ },
+ {
+  "preset": "static_weights",
+  "seed": 2,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 8.0,
+   "collapses": 0,
+   "damage_taken": 426.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 83,
+   "calibrations": 6,
+   "value_returned": 8.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.612,
+   "emergent_goals": 3,
+   "knowledge_gaps_resolved": 1,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 93,
+   "reflection_events": 39,
+   "uncertainty_reduction": 615.51,
+   "goal_progress_rate": 0.08,
+   "contradictions_resolved": 728,
+   "diagnoses": 13
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.03,
+   "info_gain_per_tick": 0.0,
+   "attention_entropy": 1.0,
+   "epistemic_share": 0.5
+  },
+  "goals": {
+   "total": 6,
+   "achieved": 2,
+   "emergent": 3,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 0.5,
+   "advance_goal": 0.5
+  },
+  "seconds": 5.45,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 37.23
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 8.0,
+    "emergent_goals": 3,
+    "uncertainty": 76.73
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 8.0,
+    "emergent_goals": 3,
+    "uncertainty": 94.37
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 8.0,
+    "emergent_goals": 3,
+    "uncertainty": 79.45
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 8.0,
+    "emergent_goals": 3,
+    "uncertainty": 99.07
+   }
+  ]
+ },
+ {
+  "preset": "static_weights",
+  "seed": 3,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 3,
+   "relic_value_banked": 7.0,
+   "collapses": 0,
+   "damage_taken": 1134.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 1004,
+   "scans": 267,
+   "calibrations": 9,
+   "value_returned": 37.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.695,
+   "emergent_goals": 13,
+   "knowledge_gaps_resolved": 5,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 50,
+   "reflection_events": 41,
+   "uncertainty_reduction": 981.68,
+   "goal_progress_rate": 0.36,
+   "contradictions_resolved": 1392,
+   "diagnoses": 11
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0121,
+   "info_gain_per_tick": 0.2863,
+   "attention_entropy": 1.688,
+   "epistemic_share": 0.333
+  },
+  "goals": {
+   "total": 16,
+   "achieved": 9,
+   "emergent": 13,
+   "abandoned": 4,
+   "blocked": 0
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.533,
+   "advance_goal": 0.2,
+   "validate": 0.033,
+   "exploit_opportunity": 0.017,
+   "resolve_contradiction": 0.217
+  },
+  "seconds": 10.62,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 7,
+    "uncertainty": 115.54
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 7,
+    "uncertainty": 117.28
+   },
+   {
+    "tick": 1500,
+    "threads": 1,
+    "banked": 4.0,
+    "emergent_goals": 11,
+    "uncertainty": 147.7
+   },
+   {
+    "tick": 2000,
+    "threads": 1,
+    "banked": 4.0,
+    "emergent_goals": 11,
+    "uncertainty": 140.72
+   },
+   {
+    "tick": 2500,
+    "threads": 3,
+    "banked": 7.0,
+    "emergent_goals": 13,
+    "uncertainty": 109.99
+   }
+  ]
+ },
+ {
+  "preset": "static_weights",
+  "seed": 4,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 8,
+   "relic_value_banked": 13.0,
+   "collapses": 0,
+   "damage_taken": 828.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 763,
+   "scans": 127,
+   "calibrations": 4,
+   "value_returned": 93.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.664,
+   "emergent_goals": 12,
+   "knowledge_gaps_resolved": 8,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 46,
+   "reflection_events": 54,
+   "uncertainty_reduction": 1049.67,
+   "goal_progress_rate": 0.44,
+   "contradictions_resolved": 1201,
+   "diagnoses": 25
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0228,
+   "info_gain_per_tick": 0.1378,
+   "attention_entropy": 1.766,
+   "epistemic_share": 0.067
+  },
+  "goals": {
+   "total": 15,
+   "achieved": 11,
+   "emergent": 12,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 0.2,
+   "explore": 0.45,
+   "exploit_opportunity": 0.017,
+   "validate": 0.033,
+   "advance_goal": 0.3
+  },
+  "seconds": 8.64,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 3.0,
+    "emergent_goals": 3,
+    "uncertainty": 62.98
+   },
+   {
+    "tick": 1000,
+    "threads": 1,
+    "banked": 11.0,
+    "emergent_goals": 5,
+    "uncertainty": 79.12
+   },
+   {
+    "tick": 1500,
+    "threads": 4,
+    "banked": 11.0,
+    "emergent_goals": 8,
+    "uncertainty": 104.66
+   },
+   {
+    "tick": 2000,
+    "threads": 5,
+    "banked": 11.0,
+    "emergent_goals": 9,
+    "uncertainty": 105.86
+   },
+   {
+    "tick": 2500,
+    "threads": 8,
+    "banked": 13.0,
+    "emergent_goals": 12,
+    "uncertainty": 118.23
+   }
+  ]
+ },
+ {
+  "preset": "static_weights",
+  "seed": 5,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 27.0,
+   "collapses": 0,
+   "damage_taken": 312.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 197,
+   "calibrations": 6,
+   "value_returned": 27.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.701,
+   "emergent_goals": 2,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 47,
+   "reflection_events": 39,
+   "uncertainty_reduction": 960.53,
+   "goal_progress_rate": 0.04,
+   "contradictions_resolved": 1184,
+   "diagnoses": 16
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0137,
+   "info_gain_per_tick": 0.208,
+   "attention_entropy": 0.86,
+   "epistemic_share": 0.083
+  },
+  "goals": {
+   "total": 5,
+   "achieved": 1,
+   "emergent": 2,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.283,
+   "explore": 0.717
+  },
+  "seconds": 6.49,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 11.0,
+    "emergent_goals": 2,
+    "uncertainty": 45.45
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 18.0,
+    "emergent_goals": 2,
+    "uncertainty": 81.3
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 21.0,
+    "emergent_goals": 2,
+    "uncertainty": 116.85
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 24.0,
+    "emergent_goals": 2,
+    "uncertainty": 112.54
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 27.0,
+    "emergent_goals": 2,
+    "uncertainty": 105.61
+   }
+  ]
+ },
+ {
+  "preset": "static_weights",
+  "seed": 6,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 2,
+   "relic_value_banked": 3.0,
+   "collapses": 0,
+   "damage_taken": 132.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 1375,
+   "scans": 69,
+   "calibrations": 7,
+   "value_returned": 23.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.578,
+   "emergent_goals": 8,
+   "knowledge_gaps_resolved": 3,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 130,
+   "reflection_events": 44,
+   "uncertainty_reduction": 476.91,
+   "goal_progress_rate": 0.28,
+   "contradictions_resolved": 408,
+   "diagnoses": 19
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0025,
+   "info_gain_per_tick": 0.2043,
+   "attention_entropy": 1.315,
+   "epistemic_share": 0.119
+  },
+  "goals": {
+   "total": 11,
+   "achieved": 7,
+   "emergent": 8,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 0.183,
+   "explore": 0.633,
+   "advance_goal": 0.183
+  },
+  "seconds": 8.95,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 5,
+    "uncertainty": 59.65
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 5,
+    "uncertainty": 81.64
+   },
+   {
+    "tick": 1500,
+    "threads": 1,
+    "banked": 3.0,
+    "emergent_goals": 7,
+    "uncertainty": 79.64
+   },
+   {
+    "tick": 2000,
+    "threads": 1,
+    "banked": 3.0,
+    "emergent_goals": 7,
+    "uncertainty": 95.05
+   },
+   {
+    "tick": 2500,
+    "threads": 2,
+    "banked": 3.0,
+    "emergent_goals": 8,
+    "uncertainty": 81.3
+   }
+  ]
+ },
+ {
+  "preset": "static_weights",
+  "seed": 7,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 0.0,
+   "collapses": 0,
+   "damage_taken": 60.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 16,
+   "calibrations": 0,
+   "value_returned": 0.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.523,
+   "emergent_goals": 3,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 159,
+   "reflection_events": 28,
+   "uncertainty_reduction": 191.73,
+   "goal_progress_rate": 0.08,
+   "contradictions_resolved": 90,
+   "diagnoses": 7
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0298,
+   "info_gain_per_tick": 0.0025,
+   "attention_entropy": 1.0,
+   "epistemic_share": 0.5
+  },
+  "goals": {
+   "total": 6,
+   "achieved": 2,
+   "emergent": 3,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 0.5,
+   "advance_goal": 0.5
+  },
+  "seconds": 7.62,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 51.51
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 3,
+    "uncertainty": 49.18
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 3,
+    "uncertainty": 51.95
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 3,
+    "uncertainty": 53.4
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 3,
+    "uncertainty": 53.48
+   }
+  ]
+ },
+ {
+  "preset": "static_weights",
+  "seed": 8,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 7,
+   "relic_value_banked": 5.0,
+   "collapses": 0,
+   "damage_taken": 732.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 415,
+   "scans": 102,
+   "calibrations": 5,
+   "value_returned": 75.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.62,
+   "emergent_goals": 11,
+   "knowledge_gaps_resolved": 7,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 76,
+   "reflection_events": 52,
+   "uncertainty_reduction": 788.47,
+   "goal_progress_rate": 0.4,
+   "contradictions_resolved": 962,
+   "diagnoses": 19
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0269,
+   "info_gain_per_tick": 0.005,
+   "attention_entropy": 1.105,
+   "epistemic_share": 0.492
+  },
+  "goals": {
+   "total": 14,
+   "achieved": 10,
+   "emergent": 11,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.5,
+   "resolve_contradiction": 0.483,
+   "reorganize": 0.017
+  },
+  "seconds": 7.74,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 1,
+    "banked": 0.0,
+    "emergent_goals": 5,
+    "uncertainty": 67.49
+   },
+   {
+    "tick": 1000,
+    "threads": 2,
+    "banked": 0.0,
+    "emergent_goals": 6,
+    "uncertainty": 85.43
+   },
+   {
+    "tick": 1500,
+    "threads": 3,
+    "banked": 5.0,
+    "emergent_goals": 7,
+    "uncertainty": 89.64
+   },
+   {
+    "tick": 2000,
+    "threads": 6,
+    "banked": 5.0,
+    "emergent_goals": 10,
+    "uncertainty": 101.7
+   },
+   {
+    "tick": 2500,
+    "threads": 7,
+    "banked": 5.0,
+    "emergent_goals": 11,
+    "uncertainty": 131.79
+   }
+  ]
+ },
+ {
+  "preset": "no_attention_learning",
+  "seed": 1,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 2,
+   "relic_value_banked": 12.0,
+   "collapses": 0,
+   "damage_taken": 630.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 1187,
+   "scans": 81,
+   "calibrations": 1,
+   "value_returned": 32.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.61,
+   "emergent_goals": 8,
+   "knowledge_gaps_resolved": 3,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 62,
+   "reflection_events": 48,
+   "uncertainty_reduction": 625.37,
+   "goal_progress_rate": 0.28,
+   "contradictions_resolved": 674,
+   "diagnoses": 23
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0392,
+   "info_gain_per_tick": 0.0384,
+   "attention_entropy": 1.441,
+   "epistemic_share": 0.517
+  },
+  "goals": {
+   "total": 11,
+   "achieved": 7,
+   "emergent": 8,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.35,
+   "explore": 0.15,
+   "resolve_contradiction": 0.5
+  },
+  "seconds": 7.61,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 2.0,
+    "emergent_goals": 1,
+    "uncertainty": 40.58
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 7.0,
+    "emergent_goals": 4,
+    "uncertainty": 58.38
+   },
+   {
+    "tick": 1500,
+    "threads": 1,
+    "banked": 7.0,
+    "emergent_goals": 7,
+    "uncertainty": 91.7
+   },
+   {
+    "tick": 2000,
+    "threads": 1,
+    "banked": 7.0,
+    "emergent_goals": 7,
+    "uncertainty": 99.48
+   },
+   {
+    "tick": 2500,
+    "threads": 2,
+    "banked": 12.0,
+    "emergent_goals": 8,
+    "uncertainty": 99.36
+   }
+  ]
+ },
+ {
+  "preset": "no_attention_learning",
+  "seed": 2,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 8,
+   "relic_value_banked": 11.0,
+   "collapses": 0,
+   "damage_taken": 660.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 571,
+   "scans": 119,
+   "calibrations": 7,
+   "value_returned": 91.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.662,
+   "emergent_goals": 15,
+   "knowledge_gaps_resolved": 10,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 42,
+   "reflection_events": 54,
+   "uncertainty_reduction": 904.1,
+   "goal_progress_rate": 0.56,
+   "contradictions_resolved": 1194,
+   "diagnoses": 18
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0161,
+   "info_gain_per_tick": 0.0866,
+   "attention_entropy": 1.054,
+   "epistemic_share": 0.085
+  },
+  "goals": {
+   "total": 18,
+   "achieved": 14,
+   "emergent": 15,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.283,
+   "explore": 0.683,
+   "resolve_contradiction": 0.033
+  },
+  "seconds": 8.94,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 3.0,
+    "emergent_goals": 7,
+    "uncertainty": 82.47
+   },
+   {
+    "tick": 1000,
+    "threads": 2,
+    "banked": 3.0,
+    "emergent_goals": 9,
+    "uncertainty": 97.76
+   },
+   {
+    "tick": 1500,
+    "threads": 5,
+    "banked": 3.0,
+    "emergent_goals": 12,
+    "uncertainty": 101.67
+   },
+   {
+    "tick": 2000,
+    "threads": 7,
+    "banked": 3.0,
+    "emergent_goals": 14,
+    "uncertainty": 99.13
+   },
+   {
+    "tick": 2500,
+    "threads": 8,
+    "banked": 11.0,
+    "emergent_goals": 15,
+    "uncertainty": 103.83
+   }
+  ]
+ },
+ {
+  "preset": "no_attention_learning",
+  "seed": 3,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 7.0,
+   "collapses": 0,
+   "damage_taken": 372.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 621,
+   "calibrations": 7,
+   "value_returned": 7.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.678,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 1,
+   "agent_topology_changes": 173,
+   "reflection_events": 29,
+   "uncertainty_reduction": 881.46,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 928,
+   "diagnoses": 8
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0237,
+   "info_gain_per_tick": 0.0391,
+   "attention_entropy": 0.995,
+   "epistemic_share": 0.293
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "max_gain",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.683,
+   "advance_goal": 0.3,
+   "consolidate_memory": 0.017
+  },
+  "seconds": 3.8,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 7.0,
+    "emergent_goals": 1,
+    "uncertainty": 21.92
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 7.0,
+    "emergent_goals": 1,
+    "uncertainty": 37.77
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 7.0,
+    "emergent_goals": 1,
+    "uncertainty": 46.09
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 7.0,
+    "emergent_goals": 1,
+    "uncertainty": 46.45
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 7.0,
+    "emergent_goals": 1,
+    "uncertainty": 47.64
+   }
+  ]
+ },
+ {
+  "preset": "no_attention_learning",
+  "seed": 4,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 3,
+   "relic_value_banked": 7.0,
+   "collapses": 0,
+   "damage_taken": 1104.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 525,
+   "scans": 140,
+   "calibrations": 8,
+   "value_returned": 37.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.688,
+   "emergent_goals": 7,
+   "knowledge_gaps_resolved": 4,
+   "strategy_adaptations": 2,
+   "agent_topology_changes": 52,
+   "reflection_events": 43,
+   "uncertainty_reduction": 884.63,
+   "goal_progress_rate": 0.28,
+   "contradictions_resolved": 1355,
+   "diagnoses": 14
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0328,
+   "info_gain_per_tick": 0.0356,
+   "attention_entropy": 1.424,
+   "epistemic_share": 0.068
+  },
+  "goals": {
+   "total": 10,
+   "achieved": 7,
+   "emergent": 7,
+   "abandoned": 0,
+   "blocked": 0
+  },
+  "strategies": {
+   "exploration.frontier_policy": "nearest",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.617,
+   "resolve_contradiction": 0.2,
+   "exploit_opportunity": 0.167,
+   "adapt_strategy": 0.017
+  },
+  "seconds": 9.88,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 69.13
+   },
+   {
+    "tick": 1000,
+    "threads": 2,
+    "banked": 0.0,
+    "emergent_goals": 4,
+    "uncertainty": 100.73
+   },
+   {
+    "tick": 1500,
+    "threads": 3,
+    "banked": 0.0,
+    "emergent_goals": 5,
+    "uncertainty": 112.15
+   },
+   {
+    "tick": 2000,
+    "threads": 3,
+    "banked": 0.0,
+    "emergent_goals": 5,
+    "uncertainty": 122.1
+   },
+   {
+    "tick": 2500,
+    "threads": 3,
+    "banked": 7.0,
+    "emergent_goals": 7,
+    "uncertainty": 107.94
+   }
+  ]
+ },
+ {
+  "preset": "no_attention_learning",
+  "seed": 5,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 11.0,
+   "collapses": 0,
+   "damage_taken": 474.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 122,
+   "calibrations": 2,
+   "value_returned": 11.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.73,
+   "emergent_goals": 10,
+   "knowledge_gaps_resolved": 2,
+   "strategy_adaptations": 2,
+   "agent_topology_changes": 42,
+   "reflection_events": 34,
+   "uncertainty_reduction": 1160.11,
+   "goal_progress_rate": 0.12,
+   "contradictions_resolved": 1418,
+   "diagnoses": 12
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": 0.0081,
+   "info_gain_per_tick": 0.4749,
+   "attention_entropy": 0.974,
+   "epistemic_share": 0.117
+  },
+  "goals": {
+   "total": 13,
+   "achieved": 3,
+   "emergent": 10,
+   "abandoned": 3,
+   "blocked": 5
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.283,
+   "explore": 0.7,
+   "exploit_opportunity": 0.017
+  },
+  "seconds": 9.27,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 2,
+    "uncertainty": 52.5
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 2,
+    "uncertainty": 68.74
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 8.0,
+    "emergent_goals": 2,
+    "uncertainty": 89.17
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 8.0,
+    "emergent_goals": 3,
+    "uncertainty": 87.18
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 11.0,
+    "emergent_goals": 10,
+    "uncertainty": 97.64
+   }
+  ]
+ },
+ {
+  "preset": "no_attention_learning",
+  "seed": 6,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 7,
+   "relic_value_banked": 12.0,
+   "collapses": 0,
+   "damage_taken": 510.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 701,
+   "scans": 161,
+   "calibrations": 7,
+   "value_returned": 82.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.692,
+   "emergent_goals": 10,
+   "knowledge_gaps_resolved": 7,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 60,
+   "reflection_events": 46,
+   "uncertainty_reduction": 1021.57,
+   "goal_progress_rate": 0.36,
+   "contradictions_resolved": 1310,
+   "diagnoses": 10
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0161,
+   "info_gain_per_tick": 0.2728,
+   "attention_entropy": 0.974,
+   "epistemic_share": 0.102
+  },
+  "goals": {
+   "total": 13,
+   "achieved": 9,
+   "emergent": 10,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.7,
+   "advance_goal": 0.283,
+   "reorganize": 0.017
+  },
+  "seconds": 8.21,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 2.0,
+    "emergent_goals": 1,
+    "uncertainty": 24.03
+   },
+   {
+    "tick": 1000,
+    "threads": 3,
+    "banked": 7.0,
+    "emergent_goals": 6,
+    "uncertainty": 88.69
+   },
+   {
+    "tick": 1500,
+    "threads": 6,
+    "banked": 12.0,
+    "emergent_goals": 9,
+    "uncertainty": 114.7
+   },
+   {
+    "tick": 2000,
+    "threads": 7,
+    "banked": 12.0,
+    "emergent_goals": 10,
+    "uncertainty": 135.67
+   },
+   {
+    "tick": 2500,
+    "threads": 7,
+    "banked": 12.0,
+    "emergent_goals": 10,
+    "uncertainty": 144.86
+   }
+  ]
+ },
+ {
+  "preset": "no_attention_learning",
+  "seed": 7,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 8,
+   "relic_value_banked": 11.0,
+   "collapses": 0,
+   "damage_taken": 288.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 500,
+   "scans": 91,
+   "calibrations": 7,
+   "value_returned": 91.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.619,
+   "emergent_goals": 14,
+   "knowledge_gaps_resolved": 9,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 39,
+   "reflection_events": 55,
+   "uncertainty_reduction": 790.81,
+   "goal_progress_rate": 0.52,
+   "contradictions_resolved": 989,
+   "diagnoses": 17
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0176,
+   "info_gain_per_tick": 0.0852,
+   "attention_entropy": 1.521,
+   "epistemic_share": 0.339
+  },
+  "goals": {
+   "total": 17,
+   "achieved": 13,
+   "emergent": 14,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 0.417,
+   "advance_goal": 0.383,
+   "explore": 0.2
+  },
+  "seconds": 7.79,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 1,
+    "banked": 0.0,
+    "emergent_goals": 6,
+    "uncertainty": 60.56
+   },
+   {
+    "tick": 1000,
+    "threads": 1,
+    "banked": 8.0,
+    "emergent_goals": 7,
+    "uncertainty": 87.96
+   },
+   {
+    "tick": 1500,
+    "threads": 3,
+    "banked": 11.0,
+    "emergent_goals": 9,
+    "uncertainty": 87.57
+   },
+   {
+    "tick": 2000,
+    "threads": 4,
+    "banked": 11.0,
+    "emergent_goals": 10,
+    "uncertainty": 108.03
+   },
+   {
+    "tick": 2500,
+    "threads": 8,
+    "banked": 11.0,
+    "emergent_goals": 14,
+    "uncertainty": 106.9
+   }
+  ]
+ },
+ {
+  "preset": "no_attention_learning",
+  "seed": 8,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 8,
+   "relic_value_banked": 6.0,
+   "collapses": 0,
+   "damage_taken": 1386.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 934,
+   "scans": 162,
+   "calibrations": 9,
+   "value_returned": 86.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.623,
+   "emergent_goals": 12,
+   "knowledge_gaps_resolved": 8,
+   "strategy_adaptations": 1,
+   "agent_topology_changes": 41,
+   "reflection_events": 57,
+   "uncertainty_reduction": 908.11,
+   "goal_progress_rate": 0.44,
+   "contradictions_resolved": 1235,
+   "diagnoses": 12
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0405,
+   "info_gain_per_tick": 0.1183,
+   "attention_entropy": 1.071,
+   "epistemic_share": 0.1
+  },
+  "goals": {
+   "total": 15,
+   "achieved": 11,
+   "emergent": 12,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "max_gain",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.6,
+   "advance_goal": 0.383,
+   "exploit_opportunity": 0.017
+  },
+  "seconds": 8.18,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 1,
+    "uncertainty": 61.56
+   },
+   {
+    "tick": 1000,
+    "threads": 1,
+    "banked": 4.0,
+    "emergent_goals": 5,
+    "uncertainty": 90.22
+   },
+   {
+    "tick": 1500,
+    "threads": 3,
+    "banked": 4.0,
+    "emergent_goals": 7,
+    "uncertainty": 91.32
+   },
+   {
+    "tick": 2000,
+    "threads": 7,
+    "banked": 6.0,
+    "emergent_goals": 11,
+    "uncertainty": 107.78
+   },
+   {
+    "tick": 2500,
+    "threads": 8,
+    "banked": 6.0,
+    "emergent_goals": 12,
+    "uncertainty": 126.84
+   }
+  ]
+ },
+ {
+  "preset": "no_memory_feedback",
+  "seed": 1,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 1,
+   "relic_value_banked": 33.0,
+   "collapses": 0,
+   "damage_taken": 990.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 2183,
+   "scans": 128,
+   "calibrations": 2,
+   "value_returned": 43.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.65,
+   "emergent_goals": 5,
+   "knowledge_gaps_resolved": 2,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 55,
+   "reflection_events": 34,
+   "uncertainty_reduction": 879.91,
+   "goal_progress_rate": 0.16,
+   "contradictions_resolved": 1052,
+   "diagnoses": 19
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0085,
+   "info_gain_per_tick": 0.0677,
+   "attention_entropy": 1.877,
+   "epistemic_share": 0.05
+  },
+  "goals": {
+   "total": 8,
+   "achieved": 4,
+   "emergent": 5,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "exploit_opportunity": 0.117,
+   "advance_goal": 0.267,
+   "explore": 0.4,
+   "resolve_contradiction": 0.217
+  },
+  "seconds": 10.11,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 48.62
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 71.99
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 14.0,
+    "emergent_goals": 4,
+    "uncertainty": 81.22
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 26.0,
+    "emergent_goals": 4,
+    "uncertainty": 94.38
+   },
+   {
+    "tick": 2500,
+    "threads": 1,
+    "banked": 33.0,
+    "emergent_goals": 5,
+    "uncertainty": 109.61
+   }
+  ]
+ },
+ {
+  "preset": "no_memory_feedback",
+  "seed": 2,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 4.0,
+   "collapses": 0,
+   "damage_taken": 198.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 324,
+   "calibrations": 4,
+   "value_returned": 4.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.661,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 111,
+   "reflection_events": 28,
+   "uncertainty_reduction": 1129.79,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 936,
+   "diagnoses": 9
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": 0.0064,
+   "info_gain_per_tick": 0.298,
+   "attention_entropy": 0.948,
+   "epistemic_share": 0.136
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.633,
+   "advance_goal": 0.367
+  },
+  "seconds": 4.46,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 23.83
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 57.15
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 3.0,
+    "emergent_goals": 1,
+    "uncertainty": 83.57
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 1,
+    "uncertainty": 60.6
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 1,
+    "uncertainty": 68.12
+   }
+  ]
+ },
+ {
+  "preset": "no_memory_feedback",
+  "seed": 3,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 6.0,
+   "collapses": 0,
+   "damage_taken": 420.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 273,
+   "calibrations": 7,
+   "value_returned": 6.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.589,
+   "emergent_goals": 2,
+   "knowledge_gaps_resolved": 1,
+   "strategy_adaptations": 1,
+   "agent_topology_changes": 116,
+   "reflection_events": 41,
+   "uncertainty_reduction": 542.94,
+   "goal_progress_rate": 0.04,
+   "contradictions_resolved": 497,
+   "diagnoses": 18
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0305,
+   "info_gain_per_tick": 0.0266,
+   "attention_entropy": 1.096,
+   "epistemic_share": 0.533
+  },
+  "goals": {
+   "total": 5,
+   "achieved": 1,
+   "emergent": 2,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "max_gain",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.433,
+   "resolve_contradiction": 0.55,
+   "explore": 0.017
+  },
+  "seconds": 4.23,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 1,
+    "uncertainty": 46.41
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 38.07
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 6.0,
+    "emergent_goals": 2,
+    "uncertainty": 44.63
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 6.0,
+    "emergent_goals": 2,
+    "uncertainty": 58.47
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 6.0,
+    "emergent_goals": 2,
+    "uncertainty": 58.03
+   }
+  ]
+ },
+ {
+  "preset": "no_memory_feedback",
+  "seed": 4,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 2,
+   "relic_value_banked": 27.0,
+   "collapses": 0,
+   "damage_taken": 1020.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 2216,
+   "scans": 184,
+   "calibrations": 8,
+   "value_returned": 47.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.654,
+   "emergent_goals": 8,
+   "knowledge_gaps_resolved": 3,
+   "strategy_adaptations": 4,
+   "agent_topology_changes": 71,
+   "reflection_events": 40,
+   "uncertainty_reduction": 1082.3,
+   "goal_progress_rate": 0.28,
+   "contradictions_resolved": 1153,
+   "diagnoses": 13
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0241,
+   "info_gain_per_tick": 0.1355,
+   "attention_entropy": 1.911,
+   "epistemic_share": 0.051
+  },
+  "goals": {
+   "total": 11,
+   "achieved": 7,
+   "emergent": 8,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "max_gain",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "daring",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 0.183,
+   "explore": 0.15,
+   "exploit_opportunity": 0.3,
+   "advance_goal": 0.367
+  },
+  "seconds": 8.28,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 2.0,
+    "emergent_goals": 1,
+    "uncertainty": 57.43
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 12.0,
+    "emergent_goals": 1,
+    "uncertainty": 83.15
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 18.0,
+    "emergent_goals": 1,
+    "uncertainty": 116.08
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 25.0,
+    "emergent_goals": 6,
+    "uncertainty": 107.59
+   },
+   {
+    "tick": 2500,
+    "threads": 2,
+    "banked": 27.0,
+    "emergent_goals": 8,
+    "uncertainty": 126.99
+   }
+  ]
+ },
+ {
+  "preset": "no_memory_feedback",
+  "seed": 5,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 23.0,
+   "collapses": 0,
+   "damage_taken": 528.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 166,
+   "calibrations": 6,
+   "value_returned": 23.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.712,
+   "emergent_goals": 2,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 1,
+   "agent_topology_changes": 33,
+   "reflection_events": 46,
+   "uncertainty_reduction": 1079.11,
+   "goal_progress_rate": 0.04,
+   "contradictions_resolved": 1348,
+   "diagnoses": 7
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": 0.0028,
+   "info_gain_per_tick": 0.3728,
+   "attention_entropy": 1.478,
+   "epistemic_share": 0.35
+  },
+  "goals": {
+   "total": 5,
+   "achieved": 1,
+   "emergent": 2,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "nearest",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.617,
+   "explore": 0.117,
+   "exploit_opportunity": 0.233,
+   "resolve_contradiction": 0.017,
+   "validate": 0.017
+  },
+  "seconds": 10.83,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 6.0,
+    "emergent_goals": 2,
+    "uncertainty": 65.64
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 16.0,
+    "emergent_goals": 2,
+    "uncertainty": 70.93
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 19.0,
+    "emergent_goals": 2,
+    "uncertainty": 86.87
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 21.0,
+    "emergent_goals": 2,
+    "uncertainty": 100.18
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 23.0,
+    "emergent_goals": 2,
+    "uncertainty": 123.33
+   }
+  ]
+ },
+ {
+  "preset": "no_memory_feedback",
+  "seed": 6,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 37.0,
+   "collapses": 0,
+   "damage_taken": 558.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 293,
+   "calibrations": 9,
+   "value_returned": 37.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.695,
+   "emergent_goals": 3,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 2,
+   "agent_topology_changes": 77,
+   "reflection_events": 58,
+   "uncertainty_reduction": 1108.85,
+   "goal_progress_rate": 0.08,
+   "contradictions_resolved": 980,
+   "diagnoses": 13
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": 0.0116,
+   "info_gain_per_tick": 0.4038,
+   "attention_entropy": 1.59,
+   "epistemic_share": 0.085
+  },
+  "goals": {
+   "total": 6,
+   "achieved": 2,
+   "emergent": 3,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "max_gain",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "exploit_opportunity": 0.15,
+   "advance_goal": 0.267,
+   "explore": 0.55,
+   "consolidate_memory": 0.017,
+   "resolve_contradiction": 0.017
+  },
+  "seconds": 5.34,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 18.01
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 8.0,
+    "emergent_goals": 1,
+    "uncertainty": 48.43
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 11.0,
+    "emergent_goals": 1,
+    "uncertainty": 89.37
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 22.0,
+    "emergent_goals": 1,
+    "uncertainty": 108.94
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 37.0,
+    "emergent_goals": 3,
+    "uncertainty": 126.78
+   }
+  ]
+ },
+ {
+  "preset": "no_memory_feedback",
+  "seed": 7,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 17.0,
+   "collapses": 0,
+   "damage_taken": 330.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 286,
+   "calibrations": 7,
+   "value_returned": 17.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.725,
+   "emergent_goals": 3,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 57,
+   "reflection_events": 47,
+   "uncertainty_reduction": 1155.02,
+   "goal_progress_rate": 0.08,
+   "contradictions_resolved": 1338,
+   "diagnoses": 12
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0132,
+   "info_gain_per_tick": 0.048,
+   "attention_entropy": 0.927,
+   "epistemic_share": 0.017
+  },
+  "goals": {
+   "total": 6,
+   "achieved": 2,
+   "emergent": 3,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.733,
+   "advance_goal": 0.25,
+   "consolidate_memory": 0.017
+  },
+  "seconds": 6.11,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 2.0,
+    "emergent_goals": 1,
+    "uncertainty": 65.51
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 8.0,
+    "emergent_goals": 1,
+    "uncertainty": 98.42
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 17.0,
+    "emergent_goals": 1,
+    "uncertainty": 103.57
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 17.0,
+    "emergent_goals": 3,
+    "uncertainty": 132.26
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 17.0,
+    "emergent_goals": 3,
+    "uncertainty": 148.11
+   }
+  ]
+ },
+ {
+  "preset": "no_memory_feedback",
+  "seed": 8,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 16.0,
+   "collapses": 0,
+   "damage_taken": 1596.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 141,
+   "calibrations": 6,
+   "value_returned": 16.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.623,
+   "emergent_goals": 3,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 37,
+   "reflection_events": 41,
+   "uncertainty_reduction": 867.37,
+   "goal_progress_rate": 0.08,
+   "contradictions_resolved": 1158,
+   "diagnoses": 21
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0276,
+   "info_gain_per_tick": 0.1382,
+   "attention_entropy": 0.993,
+   "epistemic_share": 0.067
+  },
+  "goals": {
+   "total": 6,
+   "achieved": 2,
+   "emergent": 3,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.55,
+   "advance_goal": 0.45
+  },
+  "seconds": 5.94,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 1,
+    "uncertainty": 43.79
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 6.0,
+    "emergent_goals": 3,
+    "uncertainty": 69.85
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 11.0,
+    "emergent_goals": 3,
+    "uncertainty": 71.29
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 15.0,
+    "emergent_goals": 3,
+    "uncertainty": 80.96
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 16.0,
+    "emergent_goals": 3,
+    "uncertainty": 94.39
+   }
+  ]
+ },
+ {
+  "preset": "starvation_bonus",
+  "seed": 1,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 14.0,
+   "collapses": 0,
+   "damage_taken": 306.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 72,
+   "calibrations": 1,
+   "value_returned": 14.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.709,
+   "emergent_goals": 4,
+   "knowledge_gaps_resolved": 1,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 48,
+   "reflection_events": 42,
+   "uncertainty_reduction": 927.85,
+   "goal_progress_rate": 0.12,
+   "contradictions_resolved": 1371,
+   "diagnoses": 15
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0201,
+   "info_gain_per_tick": 0.0116,
+   "attention_entropy": 1.445,
+   "epistemic_share": 0.0
+  },
+  "goals": {
+   "total": 7,
+   "achieved": 3,
+   "emergent": 4,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "exploit_opportunity": 0.05,
+   "advance_goal": 0.25,
+   "explore": 0.617,
+   "resolve_contradiction": 0.083
+  },
+  "seconds": 6.71,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 31.52
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 42.92
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 55.13
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 14.0,
+    "emergent_goals": 4,
+    "uncertainty": 67.18
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 14.0,
+    "emergent_goals": 4,
+    "uncertainty": 82.95
+   }
+  ]
+ },
+ {
+  "preset": "starvation_bonus",
+  "seed": 2,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 22.0,
+   "collapses": 0,
+   "damage_taken": 756.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 199,
+   "calibrations": 7,
+   "value_returned": 22.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.718,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 42,
+   "reflection_events": 41,
+   "uncertainty_reduction": 1002.91,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 1373,
+   "diagnoses": 19
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0099,
+   "info_gain_per_tick": 0.0726,
+   "attention_entropy": 0.837,
+   "epistemic_share": 0.067
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.733,
+   "advance_goal": 0.267
+  },
+  "seconds": 7.27,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 6.0,
+    "emergent_goals": 1,
+    "uncertainty": 69.5
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 11.0,
+    "emergent_goals": 1,
+    "uncertainty": 77.01
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 21.0,
+    "emergent_goals": 1,
+    "uncertainty": 116.22
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 22.0,
+    "emergent_goals": 1,
+    "uncertainty": 132.27
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 22.0,
+    "emergent_goals": 1,
+    "uncertainty": 144.65
+   }
+  ]
+ },
+ {
+  "preset": "starvation_bonus",
+  "seed": 3,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 5.0,
+   "collapses": 0,
+   "damage_taken": 324.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 504,
+   "calibrations": 9,
+   "value_returned": 5.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.664,
+   "emergent_goals": 4,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 47,
+   "reflection_events": 33,
+   "uncertainty_reduction": 772.41,
+   "goal_progress_rate": 0.08,
+   "contradictions_resolved": 856,
+   "diagnoses": 14
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0352,
+   "info_gain_per_tick": 0.0386,
+   "attention_entropy": 1.541,
+   "epistemic_share": 0.3
+  },
+  "goals": {
+   "total": 7,
+   "achieved": 2,
+   "emergent": 4,
+   "abandoned": 1,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 0.433,
+   "advance_goal": 0.433,
+   "explore": 0.1,
+   "exploit_opportunity": 0.033
+  },
+  "seconds": 7.27,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 4,
+    "uncertainty": 59.71
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 4,
+    "uncertainty": 77.45
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 4,
+    "uncertainty": 134.01
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 4,
+    "uncertainty": 150.92
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 4,
+    "uncertainty": 157.18
+   }
+  ]
+ },
+ {
+  "preset": "starvation_bonus",
+  "seed": 4,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 19.0,
+   "collapses": 0,
+   "damage_taken": 1002.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 144,
+   "calibrations": 11,
+   "value_returned": 19.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.683,
+   "emergent_goals": 4,
+   "knowledge_gaps_resolved": 1,
+   "strategy_adaptations": 2,
+   "agent_topology_changes": 40,
+   "reflection_events": 59,
+   "uncertainty_reduction": 915.85,
+   "goal_progress_rate": 0.12,
+   "contradictions_resolved": 1315,
+   "diagnoses": 26
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0282,
+   "info_gain_per_tick": 0.065,
+   "attention_entropy": 1.432,
+   "epistemic_share": 0.085
+  },
+  "goals": {
+   "total": 7,
+   "achieved": 3,
+   "emergent": 4,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "nearest",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.55,
+   "advance_goal": 0.267,
+   "exploit_opportunity": 0.183
+  },
+  "seconds": 8.24,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 2.0,
+    "emergent_goals": 1,
+    "uncertainty": 63.9
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 12.0,
+    "emergent_goals": 4,
+    "uncertainty": 80.3
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 12.0,
+    "emergent_goals": 4,
+    "uncertainty": 104.21
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 14.0,
+    "emergent_goals": 4,
+    "uncertainty": 112.06
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 19.0,
+    "emergent_goals": 4,
+    "uncertainty": 103.02
+   }
+  ]
+ },
+ {
+  "preset": "starvation_bonus",
+  "seed": 5,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 31.0,
+   "collapses": 0,
+   "damage_taken": 174.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 181,
+   "calibrations": 2,
+   "value_returned": 31.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.69,
+   "emergent_goals": 2,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 2,
+   "agent_topology_changes": 58,
+   "reflection_events": 28,
+   "uncertainty_reduction": 1196.83,
+   "goal_progress_rate": 0.04,
+   "contradictions_resolved": 1214,
+   "diagnoses": 11
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0205,
+   "info_gain_per_tick": 0.1726,
+   "attention_entropy": 1.109,
+   "epistemic_share": 0.034
+  },
+  "goals": {
+   "total": 5,
+   "achieved": 1,
+   "emergent": 2,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "exploit_opportunity": 0.033,
+   "explore": 0.633,
+   "advance_goal": 0.333
+  },
+  "seconds": 7.62,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 1,
+    "uncertainty": 30.59
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 18.0,
+    "emergent_goals": 1,
+    "uncertainty": 46.54
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 29.0,
+    "emergent_goals": 2,
+    "uncertainty": 70.61
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 29.0,
+    "emergent_goals": 2,
+    "uncertainty": 83.32
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 31.0,
+    "emergent_goals": 2,
+    "uncertainty": 101.37
+   }
+  ]
+ },
+ {
+  "preset": "starvation_bonus",
+  "seed": 6,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 25.0,
+   "collapses": 0,
+   "damage_taken": 450.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 172,
+   "calibrations": 9,
+   "value_returned": 25.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.722,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 52,
+   "reflection_events": 44,
+   "uncertainty_reduction": 1118.76,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 1238,
+   "diagnoses": 9
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0104,
+   "info_gain_per_tick": 0.1063,
+   "attention_entropy": 1.236,
+   "epistemic_share": 0.017
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.25,
+   "explore": 0.65,
+   "exploit_opportunity": 0.1
+  },
+  "seconds": 7.53,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 51.3
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 81.58
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 80.01
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 20.0,
+    "emergent_goals": 1,
+    "uncertainty": 88.43
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 25.0,
+    "emergent_goals": 1,
+    "uncertainty": 117.0
+   }
+  ]
+ },
+ {
+  "preset": "starvation_bonus",
+  "seed": 7,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 13.0,
+   "collapses": 0,
+   "damage_taken": 468.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 289,
+   "calibrations": 11,
+   "value_returned": 13.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.721,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 2,
+   "agent_topology_changes": 44,
+   "reflection_events": 40,
+   "uncertainty_reduction": 1072.04,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 1359,
+   "diagnoses": 14
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0225,
+   "info_gain_per_tick": 0.0388,
+   "attention_entropy": 0.951,
+   "epistemic_share": 0.034
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.267,
+   "explore": 0.717,
+   "consolidate_memory": 0.017
+  },
+  "seconds": 6.07,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 6.0,
+    "emergent_goals": 1,
+    "uncertainty": 67.62
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 6.0,
+    "emergent_goals": 1,
+    "uncertainty": 95.47
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 11.0,
+    "emergent_goals": 1,
+    "uncertainty": 83.68
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 13.0,
+    "emergent_goals": 1,
+    "uncertainty": 107.04
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 13.0,
+    "emergent_goals": 1,
+    "uncertainty": 114.44
+   }
+  ]
+ },
+ {
+  "preset": "starvation_bonus",
+  "seed": 8,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 5,
+   "relic_value_banked": 4.0,
+   "collapses": 0,
+   "damage_taken": 1392.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 1210,
+   "scans": 128,
+   "calibrations": 7,
+   "value_returned": 54.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.611,
+   "emergent_goals": 11,
+   "knowledge_gaps_resolved": 6,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 44,
+   "reflection_events": 55,
+   "uncertainty_reduction": 963.04,
+   "goal_progress_rate": 0.4,
+   "contradictions_resolved": 1183,
+   "diagnoses": 12
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0285,
+   "info_gain_per_tick": 0.0841,
+   "attention_entropy": 1.563,
+   "epistemic_share": 0.3
+  },
+  "goals": {
+   "total": 14,
+   "achieved": 10,
+   "emergent": 11,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.417,
+   "explore": 0.3,
+   "resolve_contradiction": 0.283
+  },
+  "seconds": 8.35,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 2.0,
+    "emergent_goals": 1,
+    "uncertainty": 40.21
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 3,
+    "uncertainty": 76.62
+   },
+   {
+    "tick": 1500,
+    "threads": 2,
+    "banked": 4.0,
+    "emergent_goals": 8,
+    "uncertainty": 84.55
+   },
+   {
+    "tick": 2000,
+    "threads": 5,
+    "banked": 4.0,
+    "emergent_goals": 11,
+    "uncertainty": 106.71
+   },
+   {
+    "tick": 2500,
+    "threads": 5,
+    "banked": 4.0,
+    "emergent_goals": 11,
+    "uncertainty": 116.67
+   }
+  ]
+ },
+ {
+  "preset": "fixed_pipeline",
+  "seed": 1,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 0.0,
+   "collapses": 0,
+   "damage_taken": 0.0,
+   "exhausted_ticks": 2275,
+   "first_thread_tick": -1,
+   "scans": 10,
+   "calibrations": 0,
+   "value_returned": 0.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.999,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 0,
+   "reflection_events": 851,
+   "uncertainty_reduction": 42.7,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 7,
+   "diagnoses": 0
+  },
+  "performance": {
+   "success_rate": 0.0,
+   "reward_per_tick": -0.15,
+   "info_gain_per_tick": 0.0,
+   "attention_entropy": -0.0,
+   "epistemic_share": 1.0
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 1.0
+  },
+  "seconds": 2.56,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 13.2
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 12.88
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 12.9
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 12.87
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 12.92
+   }
+  ]
+ },
+ {
+  "preset": "fixed_pipeline",
+  "seed": 2,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 0.0,
+   "collapses": 0,
+   "damage_taken": 0.0,
+   "exhausted_ticks": 1301,
+   "first_thread_tick": -1,
+   "scans": 373,
+   "calibrations": 0,
+   "value_returned": 0.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.854,
+   "emergent_goals": 2,
+   "knowledge_gaps_resolved": 1,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 0,
+   "reflection_events": 560,
+   "uncertainty_reduction": 694.69,
+   "goal_progress_rate": 0.04,
+   "contradictions_resolved": 345,
+   "diagnoses": 0
+  },
+  "performance": {
+   "success_rate": 0.0,
+   "reward_per_tick": -0.15,
+   "info_gain_per_tick": 0.0,
+   "attention_entropy": -0.0,
+   "epistemic_share": 1.0
+  },
+  "goals": {
+   "total": 5,
+   "achieved": 1,
+   "emergent": 2,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 1.0
+  },
+  "seconds": 3.9,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 18.36
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 38.49
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 104.54
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 124.28
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 130.88
+   }
+  ]
+ },
+ {
+  "preset": "fixed_pipeline",
+  "seed": 3,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 0.0,
+   "collapses": 0,
+   "damage_taken": 18.0,
+   "exhausted_ticks": 2460,
+   "first_thread_tick": -1,
+   "scans": 3,
+   "calibrations": 0,
+   "value_returned": 0.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 1.0,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 0,
+   "reflection_events": 908,
+   "uncertainty_reduction": 31.3,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 1,
+   "diagnoses": 0
+  },
+  "performance": {
+   "success_rate": 0.0,
+   "reward_per_tick": -0.15,
+   "info_gain_per_tick": 0.0,
+   "attention_entropy": -0.0,
+   "epistemic_share": 1.0
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 1.0
+  },
+  "seconds": 2.47,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 9.31
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 9.03
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 9.02
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 8.92
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 8.96
+   }
+  ]
+ },
+ {
+  "preset": "fixed_pipeline",
+  "seed": 4,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 0.0,
+   "collapses": 0,
+   "damage_taken": 276.0,
+   "exhausted_ticks": 1631,
+   "first_thread_tick": -1,
+   "scans": 251,
+   "calibrations": 5,
+   "value_returned": 0.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.898,
+   "emergent_goals": 2,
+   "knowledge_gaps_resolved": 1,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 0,
+   "reflection_events": 669,
+   "uncertainty_reduction": 298.61,
+   "goal_progress_rate": 0.04,
+   "contradictions_resolved": 174,
+   "diagnoses": 0
+  },
+  "performance": {
+   "success_rate": 0.0,
+   "reward_per_tick": -0.15,
+   "info_gain_per_tick": 0.0,
+   "attention_entropy": -0.0,
+   "epistemic_share": 1.0
+  },
+  "goals": {
+   "total": 5,
+   "achieved": 1,
+   "emergent": 2,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 1.0
+  },
+  "seconds": 3.49,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 26.38
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 57.78
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 75.25
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 79.9
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 81.66
+   }
+  ]
+ },
+ {
+  "preset": "fixed_pipeline",
+  "seed": 5,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 0.0,
+   "collapses": 0,
+   "damage_taken": 0.0,
+   "exhausted_ticks": 2346,
+   "first_thread_tick": -1,
+   "scans": 9,
+   "calibrations": 0,
+   "value_returned": 0.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.999,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 0,
+   "reflection_events": 874,
+   "uncertainty_reduction": 61.13,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 10,
+   "diagnoses": 0
+  },
+  "performance": {
+   "success_rate": 0.0,
+   "reward_per_tick": -0.15,
+   "info_gain_per_tick": 0.0,
+   "attention_entropy": -0.0,
+   "epistemic_share": 1.0
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 1.0
+  },
+  "seconds": 3.23,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 21.52
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 21.35
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 21.2
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 21.08
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 21.01
+   }
+  ]
+ },
+ {
+  "preset": "fixed_pipeline",
+  "seed": 6,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 0.0,
+   "collapses": 0,
+   "damage_taken": 6.0,
+   "exhausted_ticks": 2095,
+   "first_thread_tick": -1,
+   "scans": 16,
+   "calibrations": 0,
+   "value_returned": 0.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.996,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 0,
+   "reflection_events": 793,
+   "uncertainty_reduction": 81.12,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 9,
+   "diagnoses": 0
+  },
+  "performance": {
+   "success_rate": 0.0,
+   "reward_per_tick": -0.15,
+   "info_gain_per_tick": 0.0,
+   "attention_entropy": -0.0,
+   "epistemic_share": 1.0
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 1.0
+  },
+  "seconds": 3.2,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 26.06
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 26.83
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 26.72
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 26.67
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 26.68
+   }
+  ]
+ },
+ {
+  "preset": "fixed_pipeline",
+  "seed": 7,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 0.0,
+   "collapses": 0,
+   "damage_taken": 36.0,
+   "exhausted_ticks": 2325,
+   "first_thread_tick": -1,
+   "scans": 19,
+   "calibrations": 0,
+   "value_returned": 0.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.994,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 0,
+   "reflection_events": 872,
+   "uncertainty_reduction": 96.94,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 21,
+   "diagnoses": 0
+  },
+  "performance": {
+   "success_rate": 0.0,
+   "reward_per_tick": -0.15,
+   "info_gain_per_tick": 0.0,
+   "attention_entropy": -0.0,
+   "epistemic_share": 1.0
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 1.0
+  },
+  "seconds": 3.56,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 34.19
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 34.55
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 34.33
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 34.26
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 34.09
+   }
+  ]
+ },
+ {
+  "preset": "fixed_pipeline",
+  "seed": 8,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 0.0,
+   "collapses": 0,
+   "damage_taken": 102.0,
+   "exhausted_ticks": 2274,
+   "first_thread_tick": -1,
+   "scans": 48,
+   "calibrations": 1,
+   "value_returned": 0.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.981,
+   "emergent_goals": 2,
+   "knowledge_gaps_resolved": 1,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 0,
+   "reflection_events": 859,
+   "uncertainty_reduction": 139.71,
+   "goal_progress_rate": 0.04,
+   "contradictions_resolved": 48,
+   "diagnoses": 0
+  },
+  "performance": {
+   "success_rate": 0.0,
+   "reward_per_tick": -0.15,
+   "info_gain_per_tick": 0.0,
+   "attention_entropy": -0.0,
+   "epistemic_share": 1.0
+  },
+  "goals": {
+   "total": 5,
+   "achieved": 1,
+   "emergent": 2,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 1.0
+  },
+  "seconds": 3.72,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 50.47
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 53.47
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 54.55
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 54.99
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 55.18
+   }
+  ]
+ },
+ {
+  "preset": "random_attention",
+  "seed": 1,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 2.0,
+   "collapses": 0,
+   "damage_taken": 144.0,
+   "exhausted_ticks": 1234,
+   "first_thread_tick": -1,
+   "scans": 84,
+   "calibrations": 0,
+   "value_returned": 2.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.813,
+   "emergent_goals": 4,
+   "knowledge_gaps_resolved": 1,
+   "strategy_adaptations": 1,
+   "agent_topology_changes": 44,
+   "reflection_events": 472,
+   "uncertainty_reduction": 290.91,
+   "goal_progress_rate": 0.12,
+   "contradictions_resolved": 283,
+   "diagnoses": 9
+  },
+  "performance": {
+   "success_rate": 0.0,
+   "reward_per_tick": -0.0583,
+   "info_gain_per_tick": 0.0,
+   "attention_entropy": 1.83,
+   "epistemic_share": 0.222
+  },
+  "goals": {
+   "total": 7,
+   "achieved": 3,
+   "emergent": 4,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "nearest",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.517,
+   "exploit_opportunity": 0.133,
+   "reflect": 0.2,
+   "advance_goal": 0.133,
+   "adapt_strategy": 0.017
+  },
+  "seconds": 5.71,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 51.16
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 2.0,
+    "emergent_goals": 4,
+    "uncertainty": 95.34
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 2.0,
+    "emergent_goals": 4,
+    "uncertainty": 103.73
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 2.0,
+    "emergent_goals": 4,
+    "uncertainty": 106.29
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 2.0,
+    "emergent_goals": 4,
+    "uncertainty": 107.32
+   }
+  ]
+ },
+ {
+  "preset": "random_attention",
+  "seed": 2,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 3.0,
+   "collapses": 0,
+   "damage_taken": 102.0,
+   "exhausted_ticks": 467,
+   "first_thread_tick": -1,
+   "scans": 250,
+   "calibrations": 2,
+   "value_returned": 3.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.793,
+   "emergent_goals": 2,
+   "knowledge_gaps_resolved": 1,
+   "strategy_adaptations": 1,
+   "agent_topology_changes": 58,
+   "reflection_events": 253,
+   "uncertainty_reduction": 775.48,
+   "goal_progress_rate": 0.04,
+   "contradictions_resolved": 940,
+   "diagnoses": 26
+  },
+  "performance": {
+   "success_rate": 0.577,
+   "reward_per_tick": -0.0523,
+   "info_gain_per_tick": 0.124,
+   "attention_entropy": 0.589,
+   "epistemic_share": 0.154
+  },
+  "goals": {
+   "total": 5,
+   "achieved": 1,
+   "emergent": 2,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "nearest",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.1,
+   "explore": 0.883,
+   "reflect": 0.017
+  },
+  "seconds": 4.77,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 33.93
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 3.0,
+    "emergent_goals": 2,
+    "uncertainty": 66.22
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 3.0,
+    "emergent_goals": 2,
+    "uncertainty": 75.32
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 3.0,
+    "emergent_goals": 2,
+    "uncertainty": 83.43
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 3.0,
+    "emergent_goals": 2,
+    "uncertainty": 87.26
+   }
+  ]
+ },
+ {
+  "preset": "random_attention",
+  "seed": 3,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 7.0,
+   "collapses": 0,
+   "damage_taken": 624.0,
+   "exhausted_ticks": 550,
+   "first_thread_tick": -1,
+   "scans": 197,
+   "calibrations": 2,
+   "value_returned": 7.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.792,
+   "emergent_goals": 4,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 2,
+   "agent_topology_changes": 51,
+   "reflection_events": 288,
+   "uncertainty_reduction": 964.56,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 971,
+   "diagnoses": 17
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0332,
+   "info_gain_per_tick": 0.1863,
+   "attention_entropy": 0.881,
+   "epistemic_share": 0.14
+  },
+  "goals": {
+   "total": 7,
+   "achieved": 0,
+   "emergent": 4,
+   "abandoned": 0,
+   "blocked": 5
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.7,
+   "advance_goal": 0.3
+  },
+  "seconds": 8.22,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 4,
+    "uncertainty": 51.15
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 4,
+    "uncertainty": 51.85
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 4,
+    "uncertainty": 52.18
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 7.0,
+    "emergent_goals": 4,
+    "uncertainty": 51.82
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 7.0,
+    "emergent_goals": 4,
+    "uncertainty": 62.91
+   }
+  ]
+ },
+ {
+  "preset": "random_attention",
+  "seed": 4,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 4.0,
+   "collapses": 5,
+   "damage_taken": 1230.0,
+   "exhausted_ticks": 482,
+   "first_thread_tick": -1,
+   "scans": 215,
+   "calibrations": 10,
+   "value_returned": 4.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.786,
+   "emergent_goals": 4,
+   "knowledge_gaps_resolved": 1,
+   "strategy_adaptations": 1,
+   "agent_topology_changes": 62,
+   "reflection_events": 251,
+   "uncertainty_reduction": 901.83,
+   "goal_progress_rate": 0.12,
+   "contradictions_resolved": 913,
+   "diagnoses": 19
+  },
+  "performance": {
+   "success_rate": 0.333,
+   "reward_per_tick": -0.1247,
+   "info_gain_per_tick": 0.2078,
+   "attention_entropy": 2.2,
+   "epistemic_share": 0.196
+  },
+  "goals": {
+   "total": 7,
+   "achieved": 3,
+   "emergent": 4,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "nearest",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "exploit_opportunity": 0.15,
+   "reflect": 0.033,
+   "explore": 0.4,
+   "resolve_contradiction": 0.25,
+   "validate": 0.083,
+   "advance_goal": 0.083
+  },
+  "seconds": 6.62,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 4,
+    "uncertainty": 29.88
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 4,
+    "uncertainty": 52.2
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 4,
+    "uncertainty": 77.55
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 4,
+    "uncertainty": 73.98
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 4,
+    "uncertainty": 78.41
+   }
+  ]
+ },
+ {
+  "preset": "random_attention",
+  "seed": 5,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 9.0,
+   "collapses": 0,
+   "damage_taken": 102.0,
+   "exhausted_ticks": 1361,
+   "first_thread_tick": -1,
+   "scans": 52,
+   "calibrations": 2,
+   "value_returned": 9.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.9,
+   "emergent_goals": 5,
+   "knowledge_gaps_resolved": 1,
+   "strategy_adaptations": 2,
+   "agent_topology_changes": 34,
+   "reflection_events": 489,
+   "uncertainty_reduction": 400.53,
+   "goal_progress_rate": 0.04,
+   "contradictions_resolved": 401,
+   "diagnoses": 20
+  },
+  "performance": {
+   "success_rate": 0.0,
+   "reward_per_tick": -0.0975,
+   "info_gain_per_tick": 0.0,
+   "attention_entropy": 2.143,
+   "epistemic_share": 0.136
+  },
+  "goals": {
+   "total": 8,
+   "achieved": 1,
+   "emergent": 5,
+   "abandoned": 0,
+   "blocked": 5
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.133,
+   "explore": 0.383,
+   "validate": 0.183,
+   "reflect": 0.083,
+   "exploit_opportunity": 0.217
+  },
+  "seconds": 37.01,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 49.73
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 6.0,
+    "emergent_goals": 1,
+    "uncertainty": 61.22
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 9.0,
+    "emergent_goals": 4,
+    "uncertainty": 68.34
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 9.0,
+    "emergent_goals": 4,
+    "uncertainty": 82.56
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 9.0,
+    "emergent_goals": 5,
+    "uncertainty": 88.61
+   }
+  ]
+ },
+ {
+  "preset": "random_attention",
+  "seed": 6,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 0.0,
+   "collapses": 0,
+   "damage_taken": 42.0,
+   "exhausted_ticks": 1238,
+   "first_thread_tick": -1,
+   "scans": 88,
+   "calibrations": 5,
+   "value_returned": 0.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.857,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 4,
+   "agent_topology_changes": 52,
+   "reflection_events": 416,
+   "uncertainty_reduction": 429.58,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 343,
+   "diagnoses": 23
+  },
+  "performance": {
+   "success_rate": 0.38,
+   "reward_per_tick": -0.0703,
+   "info_gain_per_tick": 0.0692,
+   "attention_entropy": 1.947,
+   "epistemic_share": 0.14
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "nearest",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "daring",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.467,
+   "resolve_contradiction": 0.217,
+   "advance_goal": 0.217,
+   "reflect": 0.05,
+   "reorganize": 0.017,
+   "exploit_opportunity": 0.033
+  },
+  "seconds": 5.3,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 26.52
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 61.93
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 64.7
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 63.14
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 69.23
+   }
+  ]
+ },
+ {
+  "preset": "random_attention",
+  "seed": 7,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 6.0,
+   "collapses": 3,
+   "damage_taken": 642.0,
+   "exhausted_ticks": 696,
+   "first_thread_tick": -1,
+   "scans": 145,
+   "calibrations": 5,
+   "value_returned": 6.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.822,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 2,
+   "agent_topology_changes": 35,
+   "reflection_events": 337,
+   "uncertainty_reduction": 743.47,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 916,
+   "diagnoses": 17
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": 0.0074,
+   "info_gain_per_tick": 0.2175,
+   "attention_entropy": 1.157,
+   "epistemic_share": 0.113
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.35,
+   "explore": 0.617,
+   "consolidate_memory": 0.017,
+   "reflect": 0.017
+  },
+  "seconds": 6.2,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 39.51
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 63.31
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 2.0,
+    "emergent_goals": 1,
+    "uncertainty": 81.08
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 2.0,
+    "emergent_goals": 1,
+    "uncertainty": 78.77
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 6.0,
+    "emergent_goals": 1,
+    "uncertainty": 91.75
+   }
+  ]
+ },
+ {
+  "preset": "random_attention",
+  "seed": 8,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 4.0,
+   "collapses": 15,
+   "damage_taken": 1806.0,
+   "exhausted_ticks": 643,
+   "first_thread_tick": -1,
+   "scans": 123,
+   "calibrations": 4,
+   "value_returned": 4.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.811,
+   "emergent_goals": 5,
+   "knowledge_gaps_resolved": 1,
+   "strategy_adaptations": 1,
+   "agent_topology_changes": 58,
+   "reflection_events": 291,
+   "uncertainty_reduction": 859.22,
+   "goal_progress_rate": 0.08,
+   "contradictions_resolved": 991,
+   "diagnoses": 16
+  },
+  "performance": {
+   "success_rate": 0.786,
+   "reward_per_tick": -0.052,
+   "info_gain_per_tick": 0.0773,
+   "attention_entropy": 2.106,
+   "epistemic_share": 0.125
+  },
+  "goals": {
+   "total": 8,
+   "achieved": 2,
+   "emergent": 5,
+   "abandoned": 0,
+   "blocked": 2
+  },
+  "strategies": {
+   "exploration.frontier_policy": "max_gain",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "validate": 0.033,
+   "advance_goal": 0.333,
+   "explore": 0.367,
+   "resolve_contradiction": 0.133,
+   "reflect": 0.033,
+   "exploit_opportunity": 0.1
+  },
+  "seconds": 14.33,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 2.0,
+    "emergent_goals": 4,
+    "uncertainty": 40.59
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 2.0,
+    "emergent_goals": 4,
+    "uncertainty": 55.4
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 2.0,
+    "emergent_goals": 5,
+    "uncertainty": 71.89
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 2.0,
+    "emergent_goals": 5,
+    "uncertainty": 92.88
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 5,
+    "uncertainty": 99.9
+   }
+  ]
+ },
+ {
+  "preset": "no_curiosity",
+  "seed": 1,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 0.0,
+   "collapses": 0,
+   "damage_taken": 0.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 1,
+   "calibrations": 0,
+   "value_returned": 0.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 1.0,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 171,
+   "reflection_events": 0,
+   "uncertainty_reduction": 8.72,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 0,
+   "diagnoses": 1
+  },
+  "performance": {
+   "success_rate": null,
+   "reward_per_tick": 0.0,
+   "info_gain_per_tick": 0.0,
+   "attention_entropy": 0,
+   "epistemic_share": 0.0
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {},
+  "seconds": 1.04,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.34
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.27
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.26
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.26
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.26
+   }
+  ]
+ },
+ {
+  "preset": "no_curiosity",
+  "seed": 2,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 0.0,
+   "collapses": 0,
+   "damage_taken": 0.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 8,
+   "calibrations": 0,
+   "value_returned": 0.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.593,
+   "emergent_goals": 2,
+   "knowledge_gaps_resolved": 1,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 178,
+   "reflection_events": 2,
+   "uncertainty_reduction": 29.85,
+   "goal_progress_rate": 0.04,
+   "contradictions_resolved": 8,
+   "diagnoses": 4
+  },
+  "performance": {
+   "success_rate": null,
+   "reward_per_tick": 0.0017,
+   "info_gain_per_tick": 0.0,
+   "attention_entropy": -0.0,
+   "epistemic_share": 0.0
+  },
+  "goals": {
+   "total": 5,
+   "achieved": 1,
+   "emergent": 2,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "adapt_strategy": 1.0
+  },
+  "seconds": 1.13,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.53
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.38
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 3.58
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 4.94
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 7.01
+   }
+  ]
+ },
+ {
+  "preset": "no_curiosity",
+  "seed": 3,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 8.0,
+   "collapses": 0,
+   "damage_taken": 180.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 52,
+   "calibrations": 4,
+   "value_returned": 8.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.575,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 82,
+   "reflection_events": 30,
+   "uncertainty_reduction": 320.69,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 327,
+   "diagnoses": 33
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": 0.0023,
+   "info_gain_per_tick": 0.086,
+   "attention_entropy": 0.811,
+   "epistemic_share": 0.125
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.75,
+   "advance_goal": 0.25
+  },
+  "seconds": 2.77,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 14.18
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 8.0,
+    "emergent_goals": 1,
+    "uncertainty": 18.52
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 8.0,
+    "emergent_goals": 1,
+    "uncertainty": 23.18
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 8.0,
+    "emergent_goals": 1,
+    "uncertainty": 26.51
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 8.0,
+    "emergent_goals": 1,
+    "uncertainty": 31.18
+   }
+  ]
+ },
+ {
+  "preset": "no_curiosity",
+  "seed": 4,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 0.0,
+   "collapses": 0,
+   "damage_taken": 0.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 1,
+   "calibrations": 0,
+   "value_returned": 0.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 1.0,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 171,
+   "reflection_events": 0,
+   "uncertainty_reduction": 8.72,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 0,
+   "diagnoses": 1
+  },
+  "performance": {
+   "success_rate": null,
+   "reward_per_tick": 0.0,
+   "info_gain_per_tick": 0.0,
+   "attention_entropy": 0,
+   "epistemic_share": 0.0
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {},
+  "seconds": 1.01,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.34
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.27
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.26
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.26
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.26
+   }
+  ]
+ },
+ {
+  "preset": "no_curiosity",
+  "seed": 5,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 0.0,
+   "collapses": 0,
+   "damage_taken": 0.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 1,
+   "calibrations": 0,
+   "value_returned": 0.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 1.0,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 171,
+   "reflection_events": 0,
+   "uncertainty_reduction": 8.72,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 0,
+   "diagnoses": 1
+  },
+  "performance": {
+   "success_rate": null,
+   "reward_per_tick": 0.0,
+   "info_gain_per_tick": 0.0,
+   "attention_entropy": 0,
+   "epistemic_share": 0.0
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {},
+  "seconds": 0.99,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.34
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.27
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.26
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.26
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.26
+   }
+  ]
+ },
+ {
+  "preset": "no_curiosity",
+  "seed": 6,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 0.0,
+   "collapses": 0,
+   "damage_taken": 0.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 1,
+   "calibrations": 0,
+   "value_returned": 0.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 1.0,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 171,
+   "reflection_events": 0,
+   "uncertainty_reduction": 8.72,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 0,
+   "diagnoses": 1
+  },
+  "performance": {
+   "success_rate": null,
+   "reward_per_tick": 0.0,
+   "info_gain_per_tick": 0.0,
+   "attention_entropy": 0,
+   "epistemic_share": 0.0
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {},
+  "seconds": 1.08,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.34
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.27
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.26
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.26
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.26
+   }
+  ]
+ },
+ {
+  "preset": "no_curiosity",
+  "seed": 7,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 0.0,
+   "collapses": 0,
+   "damage_taken": 0.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 1,
+   "calibrations": 0,
+   "value_returned": 0.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 1.0,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 171,
+   "reflection_events": 0,
+   "uncertainty_reduction": 8.72,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 0,
+   "diagnoses": 1
+  },
+  "performance": {
+   "success_rate": null,
+   "reward_per_tick": 0.0,
+   "info_gain_per_tick": 0.0,
+   "attention_entropy": 0,
+   "epistemic_share": 0.0
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {},
+  "seconds": 0.99,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.34
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.27
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.26
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.26
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 3.26
+   }
+  ]
+ },
+ {
+  "preset": "no_curiosity",
+  "seed": 8,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 0.0,
+   "collapses": 0,
+   "damage_taken": 162.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 35,
+   "calibrations": 1,
+   "value_returned": 0.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.587,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 58,
+   "reflection_events": 3,
+   "uncertainty_reduction": 140.74,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 74,
+   "diagnoses": 21
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": 0.0001,
+   "info_gain_per_tick": 0.0174,
+   "attention_entropy": 0.811,
+   "epistemic_share": 0.25
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.75,
+   "advance_goal": 0.25
+  },
+  "seconds": 1.53,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 10.29
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 12.86
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 15.73
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 17.74
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 18.93
+   }
+  ]
+ },
+ {
+  "preset": "no_reflection",
+  "seed": 1,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 3.0,
+   "collapses": 0,
+   "damage_taken": 312.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 60,
+   "calibrations": 0,
+   "value_returned": 3.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.613,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 70,
+   "reflection_events": 0,
+   "uncertainty_reduction": 592.26,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 730,
+   "diagnoses": 17
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0153,
+   "info_gain_per_tick": 0.0782,
+   "attention_entropy": 1.589,
+   "epistemic_share": 0.207
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.467,
+   "advance_goal": 0.333,
+   "resolve_contradiction": 0.183,
+   "reorganize": 0.017
+  },
+  "seconds": 3.87,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 22.11
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 25.61
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 35.21
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 3.0,
+    "emergent_goals": 1,
+    "uncertainty": 44.77
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 3.0,
+    "emergent_goals": 1,
+    "uncertainty": 57.23
+   }
+  ]
+ },
+ {
+  "preset": "no_reflection",
+  "seed": 2,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 13.0,
+   "collapses": 0,
+   "damage_taken": 396.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 126,
+   "calibrations": 0,
+   "value_returned": 13.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.646,
+   "emergent_goals": 2,
+   "knowledge_gaps_resolved": 1,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 68,
+   "reflection_events": 0,
+   "uncertainty_reduction": 927.59,
+   "goal_progress_rate": 0.04,
+   "contradictions_resolved": 859,
+   "diagnoses": 27
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0315,
+   "info_gain_per_tick": 0.0257,
+   "attention_entropy": 1.164,
+   "epistemic_share": 0.533
+  },
+  "goals": {
+   "total": 5,
+   "achieved": 1,
+   "emergent": 2,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.417,
+   "resolve_contradiction": 0.55,
+   "explore": 0.033
+  },
+  "seconds": 5.57,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 28.59
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 7.0,
+    "emergent_goals": 2,
+    "uncertainty": 44.85
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 10.0,
+    "emergent_goals": 2,
+    "uncertainty": 74.24
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 13.0,
+    "emergent_goals": 2,
+    "uncertainty": 79.9
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 13.0,
+    "emergent_goals": 2,
+    "uncertainty": 94.72
+   }
+  ]
+ },
+ {
+  "preset": "no_reflection",
+  "seed": 3,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 5.0,
+   "collapses": 0,
+   "damage_taken": 198.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 107,
+   "calibrations": 0,
+   "value_returned": 5.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.578,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 125,
+   "reflection_events": 0,
+   "uncertainty_reduction": 643.67,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 526,
+   "diagnoses": 13
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0096,
+   "info_gain_per_tick": 0.3034,
+   "attention_entropy": 1.66,
+   "epistemic_share": 0.288
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 0.367,
+   "advance_goal": 0.367,
+   "reorganize": 0.017,
+   "explore": 0.25
+  },
+  "seconds": 3.53,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 14.4
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 32.34
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 36.49
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 55.18
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 35.46
+   }
+  ]
+ },
+ {
+  "preset": "no_reflection",
+  "seed": 4,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 12.0,
+   "collapses": 0,
+   "damage_taken": 1440.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 93,
+   "calibrations": 0,
+   "value_returned": 12.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.569,
+   "emergent_goals": 3,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 58,
+   "reflection_events": 0,
+   "uncertainty_reduction": 885.55,
+   "goal_progress_rate": 0.08,
+   "contradictions_resolved": 887,
+   "diagnoses": 13
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0119,
+   "info_gain_per_tick": 0.2726,
+   "attention_entropy": 1.468,
+   "epistemic_share": 0.22
+  },
+  "goals": {
+   "total": 6,
+   "achieved": 2,
+   "emergent": 3,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.483,
+   "resolve_contradiction": 0.167,
+   "advance_goal": 0.35
+  },
+  "seconds": 6.55,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 30.88
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 8.0,
+    "emergent_goals": 3,
+    "uncertainty": 45.9
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 10.0,
+    "emergent_goals": 3,
+    "uncertainty": 47.81
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 12.0,
+    "emergent_goals": 3,
+    "uncertainty": 59.43
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 12.0,
+    "emergent_goals": 3,
+    "uncertainty": 71.32
+   }
+  ]
+ },
+ {
+  "preset": "no_reflection",
+  "seed": 5,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 12.0,
+   "collapses": 0,
+   "damage_taken": 414.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 88,
+   "calibrations": 0,
+   "value_returned": 12.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.649,
+   "emergent_goals": 4,
+   "knowledge_gaps_resolved": 1,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 74,
+   "reflection_events": 0,
+   "uncertainty_reduction": 869.36,
+   "goal_progress_rate": 0.12,
+   "contradictions_resolved": 988,
+   "diagnoses": 15
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.03,
+   "info_gain_per_tick": 0.0,
+   "attention_entropy": 1.0,
+   "epistemic_share": 0.5
+  },
+  "goals": {
+   "total": 7,
+   "achieved": 3,
+   "emergent": 4,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 0.5,
+   "advance_goal": 0.5
+  },
+  "seconds": 7.58,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 4,
+    "uncertainty": 30.25
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 10.0,
+    "emergent_goals": 4,
+    "uncertainty": 42.19
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 12.0,
+    "emergent_goals": 4,
+    "uncertainty": 59.86
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 12.0,
+    "emergent_goals": 4,
+    "uncertainty": 60.6
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 12.0,
+    "emergent_goals": 4,
+    "uncertainty": 83.08
+   }
+  ]
+ },
+ {
+  "preset": "no_reflection",
+  "seed": 6,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 7,
+   "relic_value_banked": 0.0,
+   "collapses": 0,
+   "damage_taken": 390.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 810,
+   "scans": 103,
+   "calibrations": 0,
+   "value_returned": 70.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.676,
+   "emergent_goals": 10,
+   "knowledge_gaps_resolved": 7,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 66,
+   "reflection_events": 0,
+   "uncertainty_reduction": 1185.24,
+   "goal_progress_rate": 0.36,
+   "contradictions_resolved": 1180,
+   "diagnoses": 15
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": 0.0014,
+   "info_gain_per_tick": 0.3589,
+   "attention_entropy": 1.369,
+   "epistemic_share": 0.25
+  },
+  "goals": {
+   "total": 13,
+   "achieved": 9,
+   "emergent": 10,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.217,
+   "explore": 0.6,
+   "resolve_contradiction": 0.183
+  },
+  "seconds": 12.39,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 3,
+    "uncertainty": 50.13
+   },
+   {
+    "tick": 1000,
+    "threads": 2,
+    "banked": 0.0,
+    "emergent_goals": 5,
+    "uncertainty": 71.21
+   },
+   {
+    "tick": 1500,
+    "threads": 7,
+    "banked": 0.0,
+    "emergent_goals": 10,
+    "uncertainty": 73.79
+   },
+   {
+    "tick": 2000,
+    "threads": 7,
+    "banked": 0.0,
+    "emergent_goals": 10,
+    "uncertainty": 93.1
+   },
+   {
+    "tick": 2500,
+    "threads": 7,
+    "banked": 0.0,
+    "emergent_goals": 10,
+    "uncertainty": 95.42
+   }
+  ]
+ },
+ {
+  "preset": "no_reflection",
+  "seed": 7,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 12.0,
+   "collapses": 0,
+   "damage_taken": 378.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 71,
+   "calibrations": 0,
+   "value_returned": 12.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.688,
+   "emergent_goals": 4,
+   "knowledge_gaps_resolved": 1,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 52,
+   "reflection_events": 0,
+   "uncertainty_reduction": 1001.11,
+   "goal_progress_rate": 0.12,
+   "contradictions_resolved": 1269,
+   "diagnoses": 18
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0054,
+   "info_gain_per_tick": 0.1261,
+   "attention_entropy": 1.008,
+   "epistemic_share": 0.033
+  },
+  "goals": {
+   "total": 7,
+   "achieved": 3,
+   "emergent": 4,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.717,
+   "advance_goal": 0.25,
+   "resolve_contradiction": 0.033
+  },
+  "seconds": 7.82,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 4,
+    "uncertainty": 48.5
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 8.0,
+    "emergent_goals": 4,
+    "uncertainty": 52.16
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 8.0,
+    "emergent_goals": 4,
+    "uncertainty": 60.03
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 8.0,
+    "emergent_goals": 4,
+    "uncertainty": 69.45
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 12.0,
+    "emergent_goals": 4,
+    "uncertainty": 80.05
+   }
+  ]
+ },
+ {
+  "preset": "no_reflection",
+  "seed": 8,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 1,
+   "relic_value_banked": 0.0,
+   "collapses": 0,
+   "damage_taken": 1068.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 776,
+   "scans": 116,
+   "calibrations": 0,
+   "value_returned": 10.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.671,
+   "emergent_goals": 6,
+   "knowledge_gaps_resolved": 2,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 42,
+   "reflection_events": 0,
+   "uncertainty_reduction": 1175.71,
+   "goal_progress_rate": 0.2,
+   "contradictions_resolved": 1284,
+   "diagnoses": 10
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0049,
+   "info_gain_per_tick": 0.3771,
+   "attention_entropy": 1.054,
+   "epistemic_share": 0.117
+  },
+  "goals": {
+   "total": 9,
+   "achieved": 5,
+   "emergent": 6,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.683,
+   "advance_goal": 0.283,
+   "resolve_contradiction": 0.033
+  },
+  "seconds": 14.67,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 5,
+    "uncertainty": 58.83
+   },
+   {
+    "tick": 1000,
+    "threads": 1,
+    "banked": 0.0,
+    "emergent_goals": 6,
+    "uncertainty": 62.26
+   },
+   {
+    "tick": 1500,
+    "threads": 1,
+    "banked": 0.0,
+    "emergent_goals": 6,
+    "uncertainty": 75.98
+   },
+   {
+    "tick": 2000,
+    "threads": 1,
+    "banked": 0.0,
+    "emergent_goals": 6,
+    "uncertainty": 84.43
+   },
+   {
+    "tick": 2500,
+    "threads": 1,
+    "banked": 0.0,
+    "emergent_goals": 6,
+    "uncertainty": 90.7
+   }
+  ]
+ },
+ {
+  "preset": "no_metacognition",
+  "seed": 1,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 1,
+   "relic_value_banked": 8.0,
+   "collapses": 0,
+   "damage_taken": 270.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 483,
+   "scans": 438,
+   "calibrations": 8,
+   "value_returned": 18.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.678,
+   "emergent_goals": 3,
+   "knowledge_gaps_resolved": 1,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 52,
+   "reflection_events": 29,
+   "uncertainty_reduction": 927.07,
+   "goal_progress_rate": 0.08,
+   "contradictions_resolved": 988,
+   "diagnoses": 0
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0085,
+   "info_gain_per_tick": 0.0719,
+   "attention_entropy": 0.951,
+   "epistemic_share": 0.051
+  },
+  "goals": {
+   "total": 6,
+   "achieved": 2,
+   "emergent": 3,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.717,
+   "advance_goal": 0.267,
+   "consolidate_memory": 0.017
+  },
+  "seconds": 5.06,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 1,
+    "banked": 0.0,
+    "emergent_goals": 3,
+    "uncertainty": 35.5
+   },
+   {
+    "tick": 1000,
+    "threads": 1,
+    "banked": 2.0,
+    "emergent_goals": 3,
+    "uncertainty": 64.07
+   },
+   {
+    "tick": 1500,
+    "threads": 1,
+    "banked": 5.0,
+    "emergent_goals": 3,
+    "uncertainty": 101.6
+   },
+   {
+    "tick": 2000,
+    "threads": 1,
+    "banked": 5.0,
+    "emergent_goals": 3,
+    "uncertainty": 112.34
+   },
+   {
+    "tick": 2500,
+    "threads": 1,
+    "banked": 8.0,
+    "emergent_goals": 3,
+    "uncertainty": 134.3
+   }
+  ]
+ },
+ {
+  "preset": "no_metacognition",
+  "seed": 2,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 3.0,
+   "collapses": 0,
+   "damage_taken": 396.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 203,
+   "calibrations": 8,
+   "value_returned": 3.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.653,
+   "emergent_goals": 2,
+   "knowledge_gaps_resolved": 1,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 75,
+   "reflection_events": 36,
+   "uncertainty_reduction": 799.83,
+   "goal_progress_rate": 0.04,
+   "contradictions_resolved": 959,
+   "diagnoses": 0
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0215,
+   "info_gain_per_tick": 0.0316,
+   "attention_entropy": 0.927,
+   "epistemic_share": 0.085
+  },
+  "goals": {
+   "total": 5,
+   "achieved": 1,
+   "emergent": 2,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.733,
+   "advance_goal": 0.25,
+   "consolidate_memory": 0.017
+  },
+  "seconds": 4.09,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 24.87
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 3.0,
+    "emergent_goals": 2,
+    "uncertainty": 31.89
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 3.0,
+    "emergent_goals": 2,
+    "uncertainty": 40.8
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 3.0,
+    "emergent_goals": 2,
+    "uncertainty": 74.77
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 3.0,
+    "emergent_goals": 2,
+    "uncertainty": 80.93
+   }
+  ]
+ },
+ {
+  "preset": "no_metacognition",
+  "seed": 3,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 5.0,
+   "collapses": 0,
+   "damage_taken": 144.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 797,
+   "calibrations": 7,
+   "value_returned": 5.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.665,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 89,
+   "reflection_events": 19,
+   "uncertainty_reduction": 992.0,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 742,
+   "diagnoses": 0
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": 0.0091,
+   "info_gain_per_tick": 0.3008,
+   "attention_entropy": 1.205,
+   "epistemic_share": 0.364
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.633,
+   "advance_goal": 0.317,
+   "consolidate_memory": 0.033,
+   "reorganize": 0.017
+  },
+  "seconds": 4.02,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 1,
+    "uncertainty": 64.0
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 1,
+    "uncertainty": 62.32
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 38.85
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 49.84
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 50.62
+   }
+  ]
+ },
+ {
+  "preset": "no_metacognition",
+  "seed": 4,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 25.0,
+   "collapses": 0,
+   "damage_taken": 1008.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 147,
+   "calibrations": 8,
+   "value_returned": 25.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.655,
+   "emergent_goals": 2,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 55,
+   "reflection_events": 52,
+   "uncertainty_reduction": 968.3,
+   "goal_progress_rate": 0.04,
+   "contradictions_resolved": 1085,
+   "diagnoses": 0
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0083,
+   "info_gain_per_tick": 0.2843,
+   "attention_entropy": 1.054,
+   "epistemic_share": 0.083
+  },
+  "goals": {
+   "total": 5,
+   "achieved": 1,
+   "emergent": 2,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.683,
+   "advance_goal": 0.283,
+   "exploit_opportunity": 0.033
+  },
+  "seconds": 6.99,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 8.0,
+    "emergent_goals": 2,
+    "uncertainty": 49.75
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 13.0,
+    "emergent_goals": 2,
+    "uncertainty": 69.22
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 19.0,
+    "emergent_goals": 2,
+    "uncertainty": 76.85
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 21.0,
+    "emergent_goals": 2,
+    "uncertainty": 74.41
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 25.0,
+    "emergent_goals": 2,
+    "uncertainty": 94.39
+   }
+  ]
+ },
+ {
+  "preset": "no_metacognition",
+  "seed": 5,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 28.0,
+   "collapses": 0,
+   "damage_taken": 90.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 571,
+   "calibrations": 6,
+   "value_returned": 28.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.681,
+   "emergent_goals": 4,
+   "knowledge_gaps_resolved": 1,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 82,
+   "reflection_events": 23,
+   "uncertainty_reduction": 1432.36,
+   "goal_progress_rate": 0.12,
+   "contradictions_resolved": 928,
+   "diagnoses": 0
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": 0.0353,
+   "info_gain_per_tick": 0.6364,
+   "attention_entropy": 1.075,
+   "epistemic_share": 0.263
+  },
+  "goals": {
+   "total": 7,
+   "achieved": 3,
+   "emergent": 4,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.667,
+   "advance_goal": 0.3,
+   "consolidate_memory": 0.033
+  },
+  "seconds": 6.24,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 9.0,
+    "emergent_goals": 4,
+    "uncertainty": 91.91
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 26.0,
+    "emergent_goals": 4,
+    "uncertainty": 78.1
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 28.0,
+    "emergent_goals": 4,
+    "uncertainty": 84.08
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 28.0,
+    "emergent_goals": 4,
+    "uncertainty": 90.04
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 28.0,
+    "emergent_goals": 4,
+    "uncertainty": 95.08
+   }
+  ]
+ },
+ {
+  "preset": "no_metacognition",
+  "seed": 6,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 8,
+   "relic_value_banked": 11.0,
+   "collapses": 0,
+   "damage_taken": 432.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 676,
+   "scans": 109,
+   "calibrations": 7,
+   "value_returned": 91.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.644,
+   "emergent_goals": 12,
+   "knowledge_gaps_resolved": 7,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 55,
+   "reflection_events": 70,
+   "uncertainty_reduction": 909.08,
+   "goal_progress_rate": 0.44,
+   "contradictions_resolved": 1130,
+   "diagnoses": 0
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0102,
+   "info_gain_per_tick": 0.1032,
+   "attention_entropy": 1.764,
+   "epistemic_share": 0.15
+  },
+  "goals": {
+   "total": 15,
+   "achieved": 11,
+   "emergent": 12,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 0.133,
+   "advance_goal": 0.317,
+   "explore": 0.45,
+   "exploit_opportunity": 0.1
+  },
+  "seconds": 9.02,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 5,
+    "uncertainty": 59.65
+   },
+   {
+    "tick": 1000,
+    "threads": 2,
+    "banked": 3.0,
+    "emergent_goals": 6,
+    "uncertainty": 82.6
+   },
+   {
+    "tick": 1500,
+    "threads": 3,
+    "banked": 11.0,
+    "emergent_goals": 7,
+    "uncertainty": 88.04
+   },
+   {
+    "tick": 2000,
+    "threads": 5,
+    "banked": 11.0,
+    "emergent_goals": 9,
+    "uncertainty": 90.24
+   },
+   {
+    "tick": 2500,
+    "threads": 8,
+    "banked": 11.0,
+    "emergent_goals": 12,
+    "uncertainty": 108.51
+   }
+  ]
+ },
+ {
+  "preset": "no_metacognition",
+  "seed": 7,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 8.0,
+   "collapses": 0,
+   "damage_taken": 474.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 80,
+   "calibrations": 1,
+   "value_returned": 8.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.709,
+   "emergent_goals": 2,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 46,
+   "reflection_events": 42,
+   "uncertainty_reduction": 996.82,
+   "goal_progress_rate": 0.04,
+   "contradictions_resolved": 1194,
+   "diagnoses": 0
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0128,
+   "info_gain_per_tick": 0.2579,
+   "attention_entropy": 0.852,
+   "epistemic_share": 0.133
+  },
+  "goals": {
+   "total": 5,
+   "achieved": 1,
+   "emergent": 2,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 0.033,
+   "explore": 0.8,
+   "advance_goal": 0.167
+  },
+  "seconds": 7.91,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 44.42
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 2,
+    "uncertainty": 58.2
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 8.0,
+    "emergent_goals": 2,
+    "uncertainty": 63.07
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 8.0,
+    "emergent_goals": 2,
+    "uncertainty": 74.27
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 8.0,
+    "emergent_goals": 2,
+    "uncertainty": 88.33
+   }
+  ]
+ },
+ {
+  "preset": "no_metacognition",
+  "seed": 8,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 13,
+   "relic_value_banked": 5.0,
+   "collapses": 0,
+   "damage_taken": 1122.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 492,
+   "scans": 69,
+   "calibrations": 2,
+   "value_returned": 135.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.546,
+   "emergent_goals": 18,
+   "knowledge_gaps_resolved": 13,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 72,
+   "reflection_events": 42,
+   "uncertainty_reduction": 856.86,
+   "goal_progress_rate": 0.64,
+   "contradictions_resolved": 993,
+   "diagnoses": 0
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0338,
+   "info_gain_per_tick": 0.0908,
+   "attention_entropy": 0.918,
+   "epistemic_share": 0.033
+  },
+  "goals": {
+   "total": 21,
+   "achieved": 16,
+   "emergent": 18,
+   "abandoned": 1,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.667,
+   "advance_goal": 0.333
+  },
+  "seconds": 8.04,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 1,
+    "banked": 0.0,
+    "emergent_goals": 3,
+    "uncertainty": 64.49
+   },
+   {
+    "tick": 1000,
+    "threads": 5,
+    "banked": 0.0,
+    "emergent_goals": 10,
+    "uncertainty": 64.11
+   },
+   {
+    "tick": 1500,
+    "threads": 10,
+    "banked": 0.0,
+    "emergent_goals": 15,
+    "uncertainty": 67.22
+   },
+   {
+    "tick": 2000,
+    "threads": 13,
+    "banked": 5.0,
+    "emergent_goals": 18,
+    "uncertainty": 76.65
+   },
+   {
+    "tick": 2500,
+    "threads": 13,
+    "banked": 5.0,
+    "emergent_goals": 18,
+    "uncertainty": 91.65
+   }
+  ]
+ },
+ {
+  "preset": "no_organization",
+  "seed": 1,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 13.0,
+   "collapses": 0,
+   "damage_taken": 288.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 403,
+   "calibrations": 8,
+   "value_returned": 13.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.685,
+   "emergent_goals": 3,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 0,
+   "reflection_events": 46,
+   "uncertainty_reduction": 1063.81,
+   "goal_progress_rate": 0.08,
+   "contradictions_resolved": 876,
+   "diagnoses": 12
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": 0.0218,
+   "info_gain_per_tick": 0.4898,
+   "attention_entropy": 0.881,
+   "epistemic_share": 0.246
+  },
+  "goals": {
+   "total": 6,
+   "achieved": 2,
+   "emergent": 3,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.7,
+   "advance_goal": 0.3
+  },
+  "seconds": 4.16,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 14.85
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 3.0,
+    "emergent_goals": 1,
+    "uncertainty": 41.08
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 105.85
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 3,
+    "uncertainty": 120.82
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 13.0,
+    "emergent_goals": 3,
+    "uncertainty": 123.63
+   }
+  ]
+ },
+ {
+  "preset": "no_organization",
+  "seed": 2,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 0.0,
+   "collapses": 0,
+   "damage_taken": 24.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 669,
+   "calibrations": 2,
+   "value_returned": 0.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.674,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 0,
+   "reflection_events": 5,
+   "uncertainty_reduction": 955.04,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 870,
+   "diagnoses": 4
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0148,
+   "info_gain_per_tick": 0.0205,
+   "attention_entropy": 0.995,
+   "epistemic_share": 0.291
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.683,
+   "advance_goal": 0.3,
+   "consolidate_memory": 0.017
+  },
+  "seconds": 3.44,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 25.9
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 39.22
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 56.07
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 62.18
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 67.54
+   }
+  ]
+ },
+ {
+  "preset": "no_organization",
+  "seed": 3,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 5.0,
+   "collapses": 0,
+   "damage_taken": 252.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 717,
+   "calibrations": 7,
+   "value_returned": 5.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.674,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 0,
+   "reflection_events": 19,
+   "uncertainty_reduction": 930.29,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 846,
+   "diagnoses": 4
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": 0.0092,
+   "info_gain_per_tick": 0.3243,
+   "attention_entropy": 1.109,
+   "epistemic_share": 0.328
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.333,
+   "explore": 0.633,
+   "consolidate_memory": 0.033
+  },
+  "seconds": 3.78,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 1,
+    "uncertainty": 51.69
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 4.0,
+    "emergent_goals": 1,
+    "uncertainty": 63.75
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 51.61
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 51.82
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 5.0,
+    "emergent_goals": 1,
+    "uncertainty": 52.77
+   }
+  ]
+ },
+ {
+  "preset": "no_organization",
+  "seed": 4,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 34.0,
+   "collapses": 0,
+   "damage_taken": 804.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 170,
+   "calibrations": 6,
+   "value_returned": 34.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.644,
+   "emergent_goals": 4,
+   "knowledge_gaps_resolved": 1,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 0,
+   "reflection_events": 47,
+   "uncertainty_reduction": 910.37,
+   "goal_progress_rate": 0.12,
+   "contradictions_resolved": 919,
+   "diagnoses": 16
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0008,
+   "info_gain_per_tick": 0.292,
+   "attention_entropy": 1.031,
+   "epistemic_share": 0.086
+  },
+  "goals": {
+   "total": 7,
+   "achieved": 3,
+   "emergent": 4,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.333,
+   "explore": 0.65,
+   "consolidate_memory": 0.017
+  },
+  "seconds": 4.58,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 10.0,
+    "emergent_goals": 4,
+    "uncertainty": 44.84
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 27.0,
+    "emergent_goals": 4,
+    "uncertainty": 66.76
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 29.0,
+    "emergent_goals": 4,
+    "uncertainty": 73.34
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 29.0,
+    "emergent_goals": 4,
+    "uncertainty": 80.25
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 34.0,
+    "emergent_goals": 4,
+    "uncertainty": 118.38
+   }
+  ]
+ },
+ {
+  "preset": "no_organization",
+  "seed": 5,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 20.0,
+   "collapses": 0,
+   "damage_taken": 300.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 165,
+   "calibrations": 6,
+   "value_returned": 20.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.627,
+   "emergent_goals": 2,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 1,
+   "agent_topology_changes": 0,
+   "reflection_events": 52,
+   "uncertainty_reduction": 779.22,
+   "goal_progress_rate": 0.04,
+   "contradictions_resolved": 779,
+   "diagnoses": 13
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": 0.0315,
+   "info_gain_per_tick": 0.5357,
+   "attention_entropy": 1.406,
+   "epistemic_share": 0.241
+  },
+  "goals": {
+   "total": 5,
+   "achieved": 1,
+   "emergent": 2,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "nearest",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.55,
+   "advance_goal": 0.3,
+   "exploit_opportunity": 0.15
+  },
+  "seconds": 3.96,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 1.0,
+    "emergent_goals": 1,
+    "uncertainty": 24.76
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 1.0,
+    "emergent_goals": 1,
+    "uncertainty": 26.81
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 10.0,
+    "emergent_goals": 2,
+    "uncertainty": 49.61
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 10.0,
+    "emergent_goals": 2,
+    "uncertainty": 52.16
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 20.0,
+    "emergent_goals": 2,
+    "uncertainty": 85.0
+   }
+  ]
+ },
+ {
+  "preset": "no_organization",
+  "seed": 6,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 18.0,
+   "collapses": 0,
+   "damage_taken": 150.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 192,
+   "calibrations": 4,
+   "value_returned": 18.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.62,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 0,
+   "agent_topology_changes": 0,
+   "reflection_events": 30,
+   "uncertainty_reduction": 851.08,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 607,
+   "diagnoses": 17
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.029,
+   "info_gain_per_tick": 0.0125,
+   "attention_entropy": 1.0,
+   "epistemic_share": 0.5
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "resolve_contradiction": 0.5,
+   "advance_goal": 0.5
+  },
+  "seconds": 4.5,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 0.0,
+    "emergent_goals": 1,
+    "uncertainty": 17.91
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 7.0,
+    "emergent_goals": 1,
+    "uncertainty": 67.08
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 11.0,
+    "emergent_goals": 1,
+    "uncertainty": 77.18
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 18.0,
+    "emergent_goals": 1,
+    "uncertainty": 90.65
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 18.0,
+    "emergent_goals": 1,
+    "uncertainty": 130.78
+   }
+  ]
+ },
+ {
+  "preset": "no_organization",
+  "seed": 7,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 0,
+   "relic_value_banked": 22.0,
+   "collapses": 0,
+   "damage_taken": 168.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": -1,
+   "scans": 509,
+   "calibrations": 3,
+   "value_returned": 22.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.672,
+   "emergent_goals": 1,
+   "knowledge_gaps_resolved": 0,
+   "strategy_adaptations": 1,
+   "agent_topology_changes": 0,
+   "reflection_events": 30,
+   "uncertainty_reduction": 887.51,
+   "goal_progress_rate": 0.0,
+   "contradictions_resolved": 807,
+   "diagnoses": 23
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0194,
+   "info_gain_per_tick": 0.0753,
+   "attention_entropy": 1.109,
+   "epistemic_share": 0.375
+  },
+  "goals": {
+   "total": 4,
+   "achieved": 0,
+   "emergent": 1,
+   "abandoned": 0,
+   "blocked": 1
+  },
+  "strategies": {
+   "exploration.frontier_policy": "nearest",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "balanced",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "advance_goal": 0.333,
+   "explore": 0.633,
+   "consolidate_memory": 0.033
+  },
+  "seconds": 4.87,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 3.0,
+    "emergent_goals": 1,
+    "uncertainty": 44.72
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 11.0,
+    "emergent_goals": 1,
+    "uncertainty": 72.51
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 17.0,
+    "emergent_goals": 1,
+    "uncertainty": 121.83
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 20.0,
+    "emergent_goals": 1,
+    "uncertainty": 138.43
+   },
+   {
+    "tick": 2500,
+    "threads": 0,
+    "banked": 22.0,
+    "emergent_goals": 1,
+    "uncertainty": 172.39
+   }
+  ]
+ },
+ {
+  "preset": "no_organization",
+  "seed": 8,
+  "ticks": 2500,
+  "task": {
+   "threads_recovered": 1,
+   "relic_value_banked": 25.0,
+   "collapses": 0,
+   "damage_taken": 1194.0,
+   "exhausted_ticks": 0,
+   "first_thread_tick": 2094,
+   "scans": 245,
+   "calibrations": 3,
+   "value_returned": 35.0
+  },
+  "autonomy": {
+   "self_initiated_ratio": 0.633,
+   "emergent_goals": 9,
+   "knowledge_gaps_resolved": 4,
+   "strategy_adaptations": 1,
+   "agent_topology_changes": 0,
+   "reflection_events": 51,
+   "uncertainty_reduction": 1367.37,
+   "goal_progress_rate": 0.32,
+   "contradictions_resolved": 973,
+   "diagnoses": 13
+  },
+  "performance": {
+   "success_rate": 1.0,
+   "reward_per_tick": -0.0414,
+   "info_gain_per_tick": 0.1103,
+   "attention_entropy": 1.537,
+   "epistemic_share": 0.283
+  },
+  "goals": {
+   "total": 12,
+   "achieved": 8,
+   "emergent": 9,
+   "abandoned": 0,
+   "blocked": 0
+  },
+  "strategies": {
+   "exploration.frontier_policy": "gain_per_cost",
+   "planning.support_threshold": "balanced",
+   "opportunity.min_confidence": "guarded",
+   "risk.energy_reserve": "cautious",
+   "attention.temperature": "deterministic",
+   "attention.commitment": "steady"
+  },
+  "attention": {
+   "explore": 0.217,
+   "resolve_contradiction": 0.4,
+   "advance_goal": 0.383
+  },
+  "seconds": 13.65,
+  "checkpoints": [
+   {
+    "tick": 500,
+    "threads": 0,
+    "banked": 6.0,
+    "emergent_goals": 4,
+    "uncertainty": 38.38
+   },
+   {
+    "tick": 1000,
+    "threads": 0,
+    "banked": 6.0,
+    "emergent_goals": 7,
+    "uncertainty": 98.93
+   },
+   {
+    "tick": 1500,
+    "threads": 0,
+    "banked": 11.0,
+    "emergent_goals": 8,
+    "uncertainty": 111.55
+   },
+   {
+    "tick": 2000,
+    "threads": 0,
+    "banked": 19.0,
+    "emergent_goals": 8,
+    "uncertainty": 140.84
+   },
+   {
+    "tick": 2500,
+    "threads": 1,
+    "banked": 25.0,
+    "emergent_goals": 9,
+    "uncertainty": 146.77
+   }
+  ]
+ }
+]

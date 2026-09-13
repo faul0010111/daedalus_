@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DAEDALUS — agent intelligence research console</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="masthead">
+  <h1 class="wordmark">DAEDA<span>L</span>US</h1>
+  <p class="tagline">Engineer the capabilities. Let intelligence organize the behavior.</p>
+  <div class="clock">
+    <span class="pulse" id="pulse"></span>
+    <span>tick <b id="tick">0</b></span>
+    <span>attending <b id="focal">—</b></span>
+  </div>
+</header>
+
+<aside class="rail">
+  <section>
+    <h2>Run</h2>
+    <div class="controls">
+      <button class="primary" id="play">Start</button>
+      <button id="step">Step</button>
+      <button id="step10">+10</button>
+      <button id="reset">Reset</button>
+    </div>
+    <div class="controls" style="margin-top:6px">
+      <label class="field">speed
+        <select id="speed">
+          <option value="1">1/s</option>
+          <option value="4" selected>4/s</option>
+          <option value="12">12/s</option>
+          <option value="40">40/s</option>
+          <option value="200">max</option>
+        </select>
+      </label>
+      <label class="field">seed <input type="number" id="seed" value="7" min="0"></label>
+    </div>
+    <div class="controls" style="margin-top:6px">
+      <label class="field">architecture
+        <select id="preset">
+          <option value="full">full</option>
+          <option value="fixed_pipeline">fixed pipeline</option>
+          <option value="random_attention">random attention</option>
+          <option value="static_weights">static weights</option>
+          <option value="with_drives">weights modulated by drives</option>
+          <option value="no_attention_learning">no attention learning</option>
+          <option value="no_memory_feedback">no memory feedback</option>
+          <option value="starvation_bonus">starvation bonus</option>
+          <option value="no_curiosity">no curiosity</option>
+          <option value="no_reflection">no reflection</option>
+          <option value="no_metacognition">no metacognition</option>
+          <option value="no_organization">no organization</option>
+        </select>
+      </label>
+    </div>
+    <p id="error" class="empty" hidden></p>
+  </section>
+
+  <section>
+    <h2>Autonomy</h2>
+    <div class="readout" id="autonomy"></div>
+  </section>
+
+  <section>
+    <h2>Drives</h2>
+    <div id="drives"></div>
+  </section>
+
+  <section>
+    <h2>Self-diagnosis</h2>
+    <div id="diagnoses"><p class="empty">Nothing reported.</p></div>
+  </section>
+
+  <section>
+    <h2>Task</h2>
+    <div class="readout" id="task"></div>
+  </section>
+</aside>
+
+<main class="stage">
+  <nav class="tabs" role="tablist">
+    <button class="tab" role="tab" data-panel="world" aria-selected="true">World</button>
+    <button class="tab" role="tab" data-panel="goals" aria-selected="false">Goals</button>
+    <button class="tab" role="tab" data-panel="agents" aria-selected="false">Topology</button>
+    <button class="tab" role="tab" data-panel="memory" aria-selected="false">Memory</button>
+    <button class="tab" role="tab" data-panel="strategy" aria-selected="false">Strategy</button>
+    <button class="tab" role="tab" data-panel="metrics" aria-selected="false">Metrics</button>
+  </nav>
+  <div class="panels">
+    <section class="panel active" id="panel-world">
+      <div class="split">
+        <div style="display:flex;flex-direction:column;min-height:420px">
+          <svg id="world-map" viewBox="0 0 600 480" preserveAspectRatio="xMidYMid meet"></svg>
+          <div class="legend">
+            <span><i style="background:var(--attention)"></i>agent &amp; route</span>
+            <span><i style="background:var(--good)"></i>atrium</span>
+            <span><i style="background:var(--alert)"></i>barrier / believed hazard</span>
+            <span><i style="background:var(--world)"></i>believed contents</span>
+            <span><i style="border:1px dashed var(--ink-faint)"></i>never examined</span>
+          </div>
+        </div>
+        <div class="scroller">
+          <h2>Beliefs under revision</h2>
+          <table id="belief-table"><tbody></tbody></table>
+          <h2 style="margin-top:12px">Open contradictions</h2>
+          <div id="contradictions"><p class="empty">None open.</p></div>
+          <h2 style="margin-top:12px">Source reliability</h2>
+          <table id="sources"><tbody></tbody></table>
+          <h2 style="margin-top:12px">Hypotheses</h2>
+          <div id="hypotheses"><p class="empty">None formed.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="panel-goals">
+      <div class="split">
+        <svg id="goal-graph" viewBox="0 0 600 480" preserveAspectRatio="xMidYMid meet"></svg>
+        <div class="scroller">
+          <h2>Goal ledger</h2>
+          <table id="goal-table"><tbody></tbody></table>
+          <h2 style="margin-top:12px">Transitions</h2>
+          <div id="goal-transitions"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="panel-agents">
+      <div class="split">
+        <svg id="topology" viewBox="0 0 600 480" preserveAspectRatio="xMidYMid meet"></svg>
+        <div class="scroller">
+          <h2>Unit lifecycle</h2>
+          <div id="agent-history"><p class="empty">No temporary units have been formed.</p></div>
+          <h2 style="margin-top:12px">Cognitive processes</h2>
+          <table id="processes"><tbody></tbody></table>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="panel-memory">
+      <div class="split">
+        <div class="scroller">
+          <h2>Consolidated knowledge</h2>
+          <table id="semantic"><tbody></tbody></table>
+          <h2 style="margin-top:12px">Reflection insights</h2>
+          <div id="insights"><p class="empty">Nothing reflected on yet.</p></div>
+        </div>
+        <div class="scroller">
+          <h2>Working memory</h2>
+          <table id="working"><tbody></tbody></table>
+          <h2 style="margin-top:12px">Recent episodes</h2>
+          <table id="episodes"><tbody></tbody></table>
+          <h2 style="margin-top:12px">Failures</h2>
+          <table id="failures"><tbody></tbody></table>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="panel-strategy">
+      <div class="split">
+        <div class="scroller">
+          <h2>Decision points</h2>
+          <table id="strategy-points"><tbody></tbody></table>
+          <h2 style="margin-top:12px">Adaptation audit</h2>
+          <table id="strategy-audit"><tbody></tbody></table>
+        </div>
+        <div class="scroller">
+          <h2>Learned attention bias</h2>
+          <svg id="policy-chart" viewBox="0 0 320 220" preserveAspectRatio="xMidYMid meet" style="height:220px"></svg>
+          <table id="policy-table"><tbody></tbody></table>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="panel-metrics">
+      <div class="scroller">
+        <h2>Uncertainty and belief growth</h2>
+        <svg id="uncertainty-chart" viewBox="0 0 640 200" preserveAspectRatio="none" style="height:200px"></svg>
+        <h2 style="margin-top:12px">Autonomy over time</h2>
+        <svg id="autonomy-chart" viewBox="0 0 640 200" preserveAspectRatio="none" style="height:200px"></svg>
+        <h2 style="margin-top:12px">Performance window</h2>
+        <div class="readout" id="performance"></div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<aside class="economy">
+  <h2>Intention economy <span id="candidate-count" class="chip"></span></h2>
+  <div id="contenders"><p class="empty">No intentions proposed yet.</p></div>
+</aside>
+
+<footer class="timeline">
+  <div class="stream" id="stream"></div>
+  <div class="attention-strip">
+    <h2>Attention over the last 120 ticks</h2>
+    <svg id="attention-chart" viewBox="0 0 240 72" preserveAspectRatio="none" style="height:72px"></svg>
+  </div>
+</footer>
+
+<script src="console.js"></script>
+</body>
+</html>
